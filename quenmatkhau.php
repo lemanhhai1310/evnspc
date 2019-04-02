@@ -37,7 +37,7 @@ if(isset($_POST['submit'])){
                 <form class="form_acc">
                     <div class="uk-margin">
                         <h3 class="title_forgot_pass uk-text-uppercase">lấy lại mật khẩu</h3>
-                        <p>Quý khách vui lòng điền tên đăng nhập vào hình thức lấy lại mật khẩu</p>
+                        <p class="desc_forgot">Quý khách vui lòng điền tên đăng nhập vào hình thức lấy lại mật khẩu</p>
                     </div>
                     <div class="uk-margin-small">
                         <div class="uk-position-relative">
@@ -54,42 +54,40 @@ if(isset($_POST['submit'])){
                         </div>
                     </div>
                     <div class="error1">* Mã khách hàng không đúng</div>
-                    <div class="uk-margin-small">
-                        <div class="uk-position-relative">
-                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
-                            <input id="password-field1" class="uk-input" type="password" placeholder="Mật khẩu" value="hailemanh1310">
-                            <span toggle="#password-field1" class="fa fa-eye toggle-password uk-position-center-right unlock_pass" style="right: 15px;"></span>
-                        </div>
+                    <div class="uk-margin">
+                        <div>Quý Khách hàng vui lòng lựa chọn hình thức xác nhận
+                            tài khoản đăng ký</div>
                     </div>
-                    <div class="uk-margin-small">
-                        <div class="uk-position-relative">
-                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
-                            <input id="password-field2" class="uk-input" type="password" placeholder="Nhập lại Mật khẩu" value="hailemanh1310">
-                            <span toggle="#password-field2" class="fa fa-eye toggle-password uk-position-center-right unlock_pass" style="right: 15px;"></span>
-                        </div>
+                    <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                        <label onclick="sodienthoai()"><input class="uk-radio" type="radio" name="radio2" checked> Điện thoại</label>
+                        <label onclick="email()"><input class="uk-radio" type="radio" name="radio2"> Email</label>
                     </div>
-                    <div class="uk-margin-small">
+                    <script>
+                        function sodienthoai() {
+                            $('#sdt').show();
+                            $('#email').hide();
+                        }
+                        function email() {
+                            $('#sdt').hide();
+                            $('#email').show();
+                        }
+                    </script>
+                    <div class="uk-margin" id="sdt">
                         <div class="uk-position-relative">
                             <span class="uk-form-icon" uk-icon="icon: receiver"></span>
                             <input class="uk-input" type="tel" placeholder="Số điện thoại">
                         </div>
                     </div>
-                    <div class="uk-margin-small">
+                    <div class="uk-margin" style="display: none" id="email">
                         <div class="uk-position-relative">
                             <span class="uk-form-icon" uk-icon="icon: mail"></span>
-                            <input class="uk-input" type="email" placeholder="Email">
+                            <input class="uk-input" type="tel" placeholder="Email">
                         </div>
                     </div>
-                    <div class="error1">* Vui lòng điền đầy đủ thông tin</div>
-                    <div class="uk-margin">
-                        <div>Quý Khách hàng vui lòng lựa chọn hình thức xác nhận
-                            tài khoản đăng ký</div>
-                    </div>
-                    <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid uk-flex-center">
-                        <label><input class="uk-radio" type="radio" name="radio2" checked> Điện thoại</label>
-                        <label><input class="uk-radio" type="radio" name="radio2"> Email</label>
-                    </div>
                     <button class="uk-button uk-button-primary uk-width-1-1 btn-send-contact">Đăng nhập</button>
+                    <div class="uk-margin uk-text-center">
+                        <a href="account.html">Quay lại trang đăng nhập</a>
+                    </div>
                 </form>
                 <script>
                     $(".toggle-password").click(function() {
