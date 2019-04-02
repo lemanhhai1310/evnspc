@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
 <?php include('header.php'); ?>
 <div class="block_g uk-section-large uk-background-cover" style="background-image: url('imgs/bg/2-14.jpg')">
     <div class="uk-container">
-        <h1 class="title uk-text-uppercase uk-h2 uk-text-white">tài khoản</h1>
+        <h1 class="title uk-text-uppercase uk-h2 uk-text-white">quên mật khẩu</h1>
         <ul class="uk-breadcrumb">
             <li><a href="#">Trang chủ</a></li>
             <li><span>Tài khoản</span></li>
@@ -35,18 +35,21 @@ if(isset($_POST['submit'])){
         <div class="uk-grid uk-flex-center">
             <div class="uk-width-2-5@s">
                 <form class="form_acc">
+                    <div class="uk-margin">
 
+                    </div>
                     <div class="uk-margin-small">
                         <div class="uk-position-relative">
                             <span class="uk-form-icon" uk-icon="icon: user"></span>
                             <input class="uk-input" type="text" placeholder="Tên đăng nhập">
                         </div>
                     </div>
-                    <div class="error1">* Tên đăng nhập chỉ bao gồm các chữ từ a-z và các số từ 0-9</div>
+                    <div class="error1">* Tên đăng nhập không đúng</div>
                     <div class="uk-margin-small">
                         <div class="uk-position-relative">
-                            <span class="uk-form-icon" uk-icon=""><i class="fa fa-barcode" aria-hidden="true"></i></span>
-                            <input class="uk-input" type="text" placeholder="Mã khách hàng">
+                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                            <input id="password-field1" class="uk-input" type="password" placeholder="Mật khẩu" value="hailemanh1310">
+                            <span toggle="#password-field1" class="fa fa-eye toggle-password uk-position-center-right unlock_pass" style="right: 15px;"></span>
                         </div>
                     </div>
                     <div class="error1">* Mã khách hàng không đúng</div>
