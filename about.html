@@ -1,0 +1,607 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ - EVN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="shortcut icon" href="imgs/favicon-19.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <!-- Date & Time Picker CSS -->
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/timepicker.css">
+    <link rel="stylesheet" href="css/daterangepicker.css">
+
+    <!-- Bootstrap File Upload CSS -->
+    <link rel="stylesheet" href="css/components/bs-filestyle.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <!--JS-->
+    <script src="assets/jquery/jquery-3.3.1.js"></script>
+    <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
+    <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!--Charts JS-->
+    <script src="js/chart.js"></script>
+    <script src="js/chart-utils.js"></script>
+
+    <!-- Date & Time Picker JS -->
+    <script src="js/components/moment.js"></script>
+    <script src="js/components/datepicker.js"></script>
+    <script src="js/components/timepicker.js"></script>
+
+    <!-- Include Date Range Picker -->
+    <script src="js/components/daterangepicker.js"></script>
+
+    <!-- Bootstrap File Upload Plugin -->
+    <script src="js/components/bs-filestyle.js"></script>
+
+    <script src="js/functions.js"></script>
+</head>
+<body>
+<section id="root" class="uk-height-viewport uk-offcanvas-content">
+    <div id="my-id" uk-offcanvas="overlay: true">
+        <button class="uk-offcanvas-close border-0 bg-transparent" type="button"><img src="imgs/img_back_menu.png" alt=""></button>
+        <div class="uk-offcanvas-bar uk-padding-remove bg-white">
+            <ul class="uk-nav-default uk-nav-parent-icon mb-2" uk-nav>
+                <li class="uk-active"><a href=".">Trang chủ</a></li>
+                <li class="uk-parent">
+                    <a href="about.html">Giới thiệu</a>
+                    <ul class="uk-nav-sub" hidden>
+                        <li><a href="about.html">Trung tâm CSKH EVNSPC</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Thông tin hỗ trợ</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="thongtinhuongdanthutucvedien.html">Hướng dẫn thủ tục</a></li>
+                        <li><a href="thongtinhuongdanthanhtoantiendien.html">Hướng dẫn thanh toán tiền điện</a></li>
+                        <li><a href="thongtinhoidap.html">Hỏi đáp</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Dịch vụ trực tuyến</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="capdienhaap1.html">Dịch vụ cấp điện mới</a></li>
+                        <li><a href="#">Dịch vụ trong QT thực hiện HĐMBĐ</a></li>
+                        <li><a href="#">Các dịch vụ hỗ trợ</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Tra cứu</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="tracuuchiso.html">Tra cứu chỉ số</a></li>
+                        <li><a href="tracuutiendien.html">Tra cứu tiền điện</a></li>
+                        <li><a href="hoadontiendien.html">Hóa đơn tiền điện</a></li>
+                        <li><a href="thongtinnotiendien.html">Thông tin nợ tiền điện</a></li>
+                        <li><a href="thongtinthanhtoantiendien.html">Thông tin thanh toán tiền điện</a></li>
+                        <li><a href="lichngunggiamcungcapdien.html">Lịch ngừng giảm cung cấp điện</a></li>
+                        <li><a href="lichghichiso.html">Lịch ghi chỉ số</a></li>
+                        <li><a href="diemthutiendien.html">Điểm thu tiền điện</a></li>
+                        <li><a href="thongtingiabandien.html">Thông tin giá bán điện</a></li>
+                        <li><a href="#">Thông tin phụ tải theo ngày</a></li>
+                        <li><a href="theodoitiendocapdien.html">Theo dõi tiến độ cấp điện</a></li>
+                        <li><a href="#">Theo dõi tiến độ các dịch vụ khác</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Tin tức</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="tintuc.html">Thông tin Trung tâm CSKH</a></li>
+                        <li><a href="tintuc.html">Thông tin ngành điện</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+    </div><header id="header-uk">
+    <div class="top">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-middle uk-flex-between">
+                <div class="support">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    Hỗ trợ trực tuyến 24/7:
+                    <span>19001006 - 19009000</span>
+                </div>
+                <div>
+                    <div class="uk-inline uk-visible@m">
+                        <div uk-form-custom="target: > * > span:first-child">
+                            <select>
+                                <option value="1">English</option>
+                                <option value="2">Vietnam</option>
+                            </select>
+                            <button class="uk-button" type="button" tabindex="-1">
+                                <span></span>
+                                <span uk-icon="icon: chevron-down"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="social_h uk-inline uk-visible@m">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom bg-white uk-box-shadow-small uk-position-z-index" style="z-index: 1000;" uk-sticky>
+        <div class="uk-container">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="."><img src="imgs/logo-04.svg" alt=""></a>
+                </div>
+
+                <div class="uk-navbar-right nav-overlay uk-visible@m">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="about.html">Giới thiệu</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="about.html">Trung tâm CSKH EVNSPC</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="thongtinhotro.html">Thông tin hỗ trợ</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="thongtinhuongdanthutucvedien.html">Hướng dẫn thủ tục</a></li>
+                                    <li>
+                                        <a href="thongtinhuongdanthanhtoantiendien.html">Hướng dẫn thanh toán tiền điện <span uk-icon="chevron-right"></span></a>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav right-out uk-width-medium bg-white">
+                                            <li><a href="thongtinhuongdanthutucvedien.html">Hướng dẫn thủ tục</a></li>
+                                            <li><a href="thongtinhuongdanthanhtoantiendien.html">Hướng dẫn thanh toán tiền điện</a></li>
+                                            <li><a href="thongtinhoidap.html">Hỏi đáp</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="thongtinhoidap.html">Hỏi đáp</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="dichvutructuyen.html">dịch vụ trực tuyến</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="capdienhaap1.html">Dịch vụ cấp điện mới</a></li>
+                                    <li><a href="#">Dịch vụ trong QT thực hiện HĐMBĐ</a></li>
+                                    <li><a href="#">Các dịch vụ hỗ trợ</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="tracuu.html">tra cứu</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="tracuuchiso.html">Tra cứu chỉ số</a></li>
+                                    <li><a href="tracuutiendien.html">Tra cứu tiền điện</a></li>
+                                    <li><a href="hoadontiendien.html">Hóa đơn tiền điện</a></li>
+                                    <li><a href="thongtinnotiendien.html">Thông tin nợ tiền điện</a></li>
+                                    <li><a href="thongtinthanhtoantiendien.html">Thông tin thanh toán tiền điện</a></li>
+                                    <li><a href="lichngunggiamcungcapdien.html">Lịch ngừng giảm cung cấp điện</a></li>
+                                    <li><a href="lichghichiso.html">Lịch ghi chỉ số</a></li>
+                                    <li><a href="diemthutiendien.html">Điểm thu tiền điện</a></li>
+                                    <li><a href="thongtingiabandien.html">Thông tin giá bán điện</a></li>
+                                    <li><a href="#">Thông tin phụ tải theo ngày</a></li>
+                                    <li><a href="theodoitiendocapdien.html">Theo dõi tiến độ cấp điện</a></li>
+                                    <li><a href="#">Theo dõi tiến độ các dịch vụ khác</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="tintuc.html">tin tức</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="tintuc.html">Thông tin Trung tâm CSKH</a></li>
+                                    <li><a href="tintuc.html">Thông tin ngành điện</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="lienhe.html">liên hệ</a></li>
+                    </ul>
+
+
+                </div>
+                <div class="uk-navbar-right nav-overlay tool">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
+                            <div class="uk-navbar-dropdown search1" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <form class="uk-search uk-search-navbar uk-width-1-1" hidden>
+                                            <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                                        </form>
+                                        <form action="ketquatimkiem.html" class="uk-search uk-search-default uk-width-1-1">
+                                            <span uk-search-icon></span>
+                                            <input class="uk-search-input border-0" type="search" placeholder="Tìm kiếm">
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <a href="account.html"><span uk-icon="user"></span></a>
+                            <div class="uk-navbar-dropdown uk-padding-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">XIN CHÀO P112221</a></li>
+                                    <li><a class="uk-text-truncate" href="thongtintaikhoan.html">Thông tin tài khoản</a></li>
+                                    <li><a class="uk-text-truncate" href="thongtinlienhe.html">thay đổi thông tin tài khoản</a></li>
+                                    <li><a class="uk-text-truncate" href="thaydoimatkhau.html">thay đổi mật khẩu</a></li>
+                                    <li><a href="#" class="uk-flex uk-flex-middle uk-flex-between uk-text-truncate" style="display: flex;">đăng xuất <span uk-icon="sign-out"></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="uk-hidden@m"><a href="#my-id" class="pr-0 uk-navbar-toggle" uk-toggle><span uk-icon="menu"></span></a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</header><div class="block_g uk-section-large uk-background-cover" style="background-image: url('imgs/bg/bg-1.jpg')">
+    <div class="uk-container">
+        <h1 class="title uk-text-uppercase uk-h2 uk-text-white">giới thiệu</h1>
+        <ul class="uk-breadcrumb">
+            <li><a href="#">Trang chủ</a></li>
+            <li><span>Giới thiệu</span></li>
+        </ul>
+    </div>
+</div>
+    <div class="uk-section about1">
+        <div class="uk-container">
+            <h2 class="title uk-text-center uk-margin-medium-bottom">THÔNG TIN TRUNG TÂM <br> CSKH EVN SPC</h2>
+            <div class="uk-column-1-2@m uk-column-divider">
+                <div class="box_a1 uk-text-center uk-text-right@m uk-margin animated" uk-scrollspy="cls: slideInLeft; repeat: true">
+                    <h5 class="title1 uk-text-uppercase">hình thức pháp lý</h5>
+                    <div>Trung tâm CSKH được thành lập theo Quyết định số 1889/QĐ-EVN SPC ngày 30/6/2015 của Chủ tịch Tổng công ty Điện lực miền Nam;</div>
+                    <div>Trung tâm CSKH là đơn vị hạch toán phụ thuộc Tổng công ty, hoạt động dưới hình thức chi nhánh của Tổng công ty theo quy định của Luật Doanh nghiệp, các quy định pháp luật có liên quan;</div>
+                    <div>Trung tâm CSKH được sử dụng con dấu riêng, được mở tài khoản tại Ngân hàng, Kho bạc Nhà nước, hoạt động theo phân cấp, ủy quyền của Tổng công ty. Trung tâm CSKH chịu trách nhiệm trước pháp luật và Tổng công ty theo nhiệm vụ và quyền hạn được giao.</div>
+                </div>
+                <div class="box_a1 uk-text-center uk-text-left@m uk-margin animated" uk-scrollspy="cls: slideInRight; repeat: true">
+                    <h5 class="title1 uk-text-uppercase">TÊN VÀ TRỤ SỞ TRUNG TÂM CSKH</h5>
+                    <div>Tên: <b>Trung tâm Chăm sóc Khách hàng – Chi nhánh Tổng công ty Điện lực miền Nam TNHH.</b></div>
+                    <div>Tên giao dịch quốc tế: <b>Southern Power Corporation Contact Center</b></div>
+                    <div>Tên viết tắt tiếng Anh: <b>EVNSPC.CC</b></div>
+                    <div>Trụ sở giao dịch: 12 Thi Sách, Phường Bến Nghé, Quận 1 – Thành phố Hồ Chí Minh.</div>
+                    <div>Hotline: 1900 1006 - 19009000</div>
+                    <div>Website: http://cskh.evnspc.vn</div>
+                    <div>Email: cskh@evnspc.vn</div>
+                </div>
+            </div>
+            <div class="uk-section-small">
+                <img src="imgs/img_about1.gif" alt="">
+            </div>
+        </div>
+        <div class="uk-container uk-container-small">
+            <div class="box_a2 uk-margin-bottom">
+                <h2 class="title1 uk-text-center">MÔ HÌNH TỔ CHỨC CỦA TRUNG TÂM</h2>
+            </div>
+            <div class="uk-text-center uk-margin-medium-bottom">
+                <a href="#" class="uk-button uk-button-default uk-button-large uk-box-shadow-medium bg-white btn1 uk-position-relative uk-position-z-index">ban giám đốc</a>
+            </div>
+            <div class="uk-grid uk-child-width-1-3@m" uk-scrollspy="target: > div; cls:uk-animation-scale-down; delay: 500; repeat: true">
+                <div>
+                    <div class="uk-card card5 left uk-text-center">
+                        <div class="box1_img uk-box-shadow-large">
+                            <div class="tmp_img uk-box-shadow-large">
+                                <img src="imgs/icon_bangiamdoc/icon_bangiamdoc-15.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h3 class="uk-card-title uk-text-uppercase">phòng cskh</h3>
+                            <p class="desc">Quản lý đội ngũ điện thoại viên, lập lịch trực, quản lý chất lượng, đào tạo điện thoại viên.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card card5 center uk-text-center">
+                        <div class="box1_img uk-box-shadow-large">
+                            <div class="tmp_img uk-box-shadow-large">
+                                <img src="imgs/icon_bangiamdoc/icon_bangiamdoc-16.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h3 class="uk-card-title uk-text-uppercase">phòng kỹ thuật</h3>
+                            <p class="desc">Quản lý hệ thống trang thiết bị, hạ tầng công nghệ thông tin, viễn thông của Trung tâm</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card card5 right uk-text-center">
+                        <div class="box1_img uk-box-shadow-large">
+                            <div class="tmp_img uk-box-shadow-large">
+                                <img src="imgs/icon_bangiamdoc/icon_bangiamdoc-17.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h3 class="uk-card-title uk-text-uppercase">phòng tổng hợp</h3>
+                            <p class="desc">Thực hiện các chức năng phụ trợ cho trung tâm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="uk-section bg-white">
+        <div class="uk-container">
+            <div class="uk-grid uk-child-width-1-2@m uk-grid-large uk-flex-middle">
+                <div>
+                    <img src="imgs/gioithieu1.gif" alt="">
+                </div>
+                <div>
+                    <div class="box_a2 uk-margin-bottom">
+                        <h2 class="title1 uk-text-uppercase">chức năng và nhiệm vụ <br> của trung tâm cskh</h2>
+                    </div>
+                    <ul class="uk-list list3" uk-scrollspy="target: > li; cls:fadeInUp animated; delay: 200; repeat: true">
+                        <li class="uk-position-relative">
+                            <span class="uk-position-top-left">1</span>
+                            Là đầu mối tập trung thực hiện công tác chăm sóc khách hàng cho Tổng công ty Điện lực miền Nam.
+                        </li>
+                        <li class="uk-position-relative">
+                            <span class="uk-position-top-left">2</span>
+                            Tham mưu cho Tổng công ty Điện lực miền Nam trong xây dựng chính sách, kế hoạch và triển khai thực hiện công tác chăm sóc khách hàng, dịch vụ khách hàng.
+                        </li>
+                        <li class="uk-position-relative">
+                            <span class="uk-position-top-left">3</span>
+                            Thực hiện công tác chăm sóc khách hàng đúng quy định, chủ trương, chính sách của Tập đoàn Điện lực Việt Nam và Tổng công ty Điện lực miền Nam.
+                        </li>
+                        <li class="uk-position-relative">
+                            <span class="uk-position-top-left">4</span>
+                            Cung cấp cho khách hàng một kênh tiếp cận thuận tiện, nhanh chóng đến các dịch vụ của Điện lực.
+                        </li>
+                        <li class="uk-position-relative">
+                            <span class="uk-position-top-left">5</span>
+                            Chủ động cung cấp dịch vụ chăm sóc khách hàng đến khách hàng, đáp ứng được kỳ vọng của khách hàng, mang lại sự hài lòng cho khách hàng.
+                        </li>
+                        <li class="uk-position-relative">
+                            <span class="uk-position-top-left">6</span>
+                            Giám sát chất lượng dịch vụ chăm sóc khách hàng tại các Công ty Điện lực thành viên.
+                        </li>
+                        <li class="uk-position-relative">
+                            <span class="uk-position-top-left">7</span>
+                            Không ngừng cải tiến, nâng cao chất lượng dịch vụ của Tổng công ty cho khách hàng.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-background-bottom-right uk-background-norepeat uk-text-white" style="background-image: url('imgs/bg/bg_gioithieu-06.png'); background-color: #17479B">
+        <div class="uk-container">
+            <div class="box_a2 uk-margin-large-bottom">
+                <h2 class="title1 uk-text-center uk-text-uppercase uk-text-white">LĨNH VỰC, NGÀNH NGHỀ HOẠT ĐỘNG KINH DOANH<br>CỦA TRUNG TÂM CSKH</h2>
+            </div>
+            <div class="uk-grid uk-grid-large uk-child-width-1-2@l">
+                <div>
+                    <ul class="uk-list uk-list-divider list4">
+                        <li class="uk-position-relative">
+                            Dịch vụ chăm sóc khách hàng sử dụng điện
+                            <span class="uk-position-bottom-right">01</span>
+                        </li>
+                        <li class="uk-position-relative">
+                            Dịch vụ tư vấn về phát triển khách hàng và sử dụng điện, hướng dẫn các thủ tục, giải đáp các thắc mắc của khách hàng, đánh giá sự hài lòng của khách hàng; cung cấp thông tin về điện và các lĩnh vực khác cho khách hàng.
+                            <span class="uk-position-bottom-right">02</span>
+                        </li>
+                        <li class="uk-position-relative">
+                            Giao dịch và liên kết thông tin với các đối tác và đơn vị liên quan trong lĩnh vực chăm sóc khách hàng.
+                            <span class="uk-position-bottom-right">03</span>
+                        </li>
+                        <li class="uk-position-relative">
+                            Thống kê, tổng hợp và phân tích số liệu về lưu lượng cuộc gọi, tỷ lệ phục vụ và năng suất làm việc định kỳ; từ đó phát triển chăm sóc khách hàng trong những lĩnh vực khác.
+                            <span class="uk-position-bottom-right">04</span>
+                        </li>
+                        <li class="uk-position-relative">
+                            Đào tạo về lĩnh vực chăm sóc khách hàng.
+                            <span class="uk-position-bottom-right">05</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="uk-list uk-list-divider list4">
+                        <li class="uk-position-relative">
+                            Các dịch vụ thông tin qua điện thoại; (không bao gồm dịch vụ điều tra và thông tin Nhà nước cấm).
+                            <span class="uk-position-bottom-right">06</span>
+                        </li>
+                        <li class="uk-position-relative">
+                            Dịch vụ giải đáp, chăm sóc khách hàng (bao gồm cả qua điện thoại và viễn thông; trừ dịch vụ tư vấn về chăm sóc sức khỏe).
+                            <span class="uk-position-bottom-right">07</span>
+                        </li>
+                        <li class="uk-position-relative">
+                            Dịch vụ thông tin qua mạng viễn thông; dịch vụ giá trị gia tăng trên mạng viễn thông.
+                            <span class="uk-position-bottom-right">08</span>
+                        </li>
+                        <li class="uk-position-relative">
+                            Nghiên cứu thị trường và thăm dò dư luận (không bao gồm dịch vụ điều tra và thông tin Nhà nước cấm).
+                            <span class="uk-position-bottom-right">09</span>
+                        </li>
+                        <li class="uk-position-relative">
+                            Quan hệ và thông tin cộng đồng.
+                            <span class="uk-position-bottom-right">10</span>
+                        </li>
+                        <li class="uk-position-relative">
+                            Các ngành nghề khác được EVN SPC giao bổ sung theo quy định pháp luật.
+                            <span class="uk-position-bottom-right">11</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="uk-list uk-list-divider uk-column-1-2@s list4" hidden>
+                <li class="uk-position-relative">
+                    Dịch vụ chăm sóc khách hàng sử dụng điện
+                    <span class="uk-position-bottom-right">01</span>
+                </li>
+                <li class="uk-position-relative">
+                    Dịch vụ tư vấn về phát triển khách hàng và sử dụng điện, hướng dẫn các thủ tục, giải đáp các thắc mắc của khách hàng, đánh giá sự hài lòng của khách hàng; cung cấp thông tin về điện và các lĩnh vực khác cho khách hàng.
+                    <span class="uk-position-bottom-right">02</span>
+                </li>
+                <li class="uk-position-relative">
+                    Giao dịch và liên kết thông tin với các đối tác và đơn vị liên quan trong lĩnh vực chăm sóc khách hàng.
+                    <span class="uk-position-bottom-right">03</span>
+                </li>
+                <li class="uk-position-relative">
+                    Thống kê, tổng hợp và phân tích số liệu về lưu lượng cuộc gọi, tỷ lệ phục vụ và năng suất làm việc định kỳ; từ đó phát triển chăm sóc khách hàng trong những lĩnh vực khác.
+                    <span class="uk-position-bottom-right">04</span>
+                </li>
+                <li class="uk-position-relative">
+                    Đào tạo về lĩnh vực chăm sóc khách hàng.
+                    <span class="uk-position-bottom-right">05</span>
+                </li>
+                <li class="uk-position-relative">
+                    Các dịch vụ thông tin qua điện thoại; (không bao gồm dịch vụ điều tra và thông tin Nhà nước cấm).
+                    <span class="uk-position-bottom-right">06</span>
+                </li>
+                <li class="uk-position-relative">
+                    Dịch vụ giải đáp, chăm sóc khách hàng (bao gồm cả qua điện thoại và viễn thông; trừ dịch vụ tư vấn về chăm sóc sức khỏe).
+                    <span class="uk-position-bottom-right">07</span>
+                </li>
+                <li class="uk-position-relative">
+                    Dịch vụ thông tin qua mạng viễn thông; dịch vụ giá trị gia tăng trên mạng viễn thông.
+                    <span class="uk-position-bottom-right">08</span>
+                </li>
+                <li class="uk-position-relative">
+                    Nghiên cứu thị trường và thăm dò dư luận (không bao gồm dịch vụ điều tra và thông tin Nhà nước cấm).
+                    <span class="uk-position-bottom-right">09</span>
+                </li>
+                <li class="uk-position-relative">
+                    Quan hệ và thông tin cộng đồng.
+                    <span class="uk-position-bottom-right">10</span>
+                </li>
+                <li class="uk-position-relative">
+                    Các ngành nghề khác được EVN SPC giao bổ sung theo quy định pháp luật.
+                    <span class="uk-position-bottom-right">11</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="box_a2 uk-margin-large-bottom">
+                <h2 class="title1 uk-text-center uk-text-uppercase">quy mô của trung tâm cskh</h2>
+            </div>
+            <div class="uk-grid uk-grid-large uk-flex-middle">
+                <div class="uk-width-2-3@m">
+                    <img src="imgs/bg/bg-4.png" alt="">
+                </div>
+                <div class="uk-width-1-3@m">
+                    <ul class="uk-list">
+                        <li>• Trung tâm có đầy đủ các hệ thống gồm: tổng đài IP-PBX, máy chủ và thiết bị lưu trữ,  hệ thống trả lời tự động, hệ thống phân bổ cuộc gọi, CTI, Hệ thống Multi Channels, Hệ thống tự động gọi ra, Hệ thống gọi lại, Hệ thống quản lý quan hệ khách hàng (CRM), Hệ thống quản lý chất lượng: có chức năng ghi âm, ghi màn hình các cuộc gọi vào của khách hàng,  Hệ thống báo cáo, Hệ thống quản lý tri thức, Hệ thống kho dữ liệu Data Warehouse (DW).</li>
+                        <li>• Các kênh liên lạc mà khách hàng có thể kết nối với Trung tâm là: Điện thoại, SMS, email, web, chat, mobile apps.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block3 bg-white">
+        <div class="uk-container">
+            <div class="uk-flex-middle uk-flex-between" uk-grid>
+                <div class="uk-width-auto@m">
+                    <figure class="logo_f">
+                        <a href="#"><img src="imgs/logo-04.svg" alt=""></a>
+                    </figure>
+                </div>
+                <div class="uk-width-3-5@m">
+                    <form class="uk-grid-small uk-grid-collapse box_register uk-grid" uk-grid="">
+                        <div class="uk-width-expand uk-first-column">
+                            <input class="uk-input" type="email" placeholder="Nhập email để nhận thông báo từ Trung tâm CSKH EVNSPC">
+                        </div>
+                        <div class="uk-width-auto">
+                            <button type="submit" class="uk-button uk-button-primary">đăng ký</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer-uk" class="uk-text-white">
+        <div class="uk-section-small">
+            <div class="uk-container">
+                <div class="uk-child-width-1-3@m uk-flex-between" uk-grid>
+                    <div>
+                        <address>
+                            Chi nhánh Tổng Công ty Điện lực miền Nam <br>
+                            TNHH  Trung Tâm Chăm sóc khách hàng <br>
+                            MST/ĐKKD/QĐTL: 0300942001-041
+                        </address>
+                        <a href="#"><img src="imgs/bct.png" alt=""></a>
+                    </div>
+                    <div>
+                        <address>
+                            <ul class="uk-list list1">
+                                <li>
+                                    <span>Địa chỉ:</span>
+                                    số 12 Thi Sách, phường Bến Nghé,
+                                    quận 1, thành phố Hồ Chí Minh
+                                </li>
+                                <li>
+                                    <span>Hotline:</span>
+                                    19001006-19009000
+                                </li>
+                                <li>
+                                    <span>Fax:</span>
+                                    028.35218900
+                                </li>
+                                <li>
+                                    <span>Email:</span>
+                                    cskh@evnspc.vn
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="uk-width-auto">
+                        <ul class="uk-list uk-column-1-2 list2">
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Giới thiệu</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Thông tin hỗ trợ</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Dịch vụ trực tuyến</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Tra cứu</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Tin tức</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Liên hệ</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="uk-container">© 2018 EVNSPC CSKH. ALL RIGHTS RESERVED.</div>
+        </div>
+    </footer>
+    <div class="back-to-top">
+        <a href="javascript:void(0);">Top</a>
+    </div>
+</section>
+<script data-prepros-origin-host="localhost" src="http://localhost:7925/__prepros-server__/prepros.js"> </script>
+</body>
+</html>

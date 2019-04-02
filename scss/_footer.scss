@@ -1,0 +1,81 @@
+.logo_f{
+  img{
+    width: 150px;
+  }
+}
+//=====================================
+.box_register{
+  .uk-input{
+    background-color: #edeeee;
+    border-color: #edeeee;
+    color: #8F9194;
+    border-radius: 4px 0 0 4px;
+    height: 36px;
+    font-family:'San Francisco Display Light';
+    &::placeholder{
+      color: #8F9194;
+    }
+  }
+  .uk-button{
+    font-family:'San Francisco Display SemiBold';
+    &.uk-button-primary{
+      background-color: #17479B;
+      border-color: #17479B;
+      border-radius: 0 4px 4px 0;
+      line-height: 34px;
+    }
+  }
+}
+//=====================================
+.block3{
+  padding: 20px 0;
+  border-top: 1px solid rgba(88, 89, 91, 0.14);
+}
+//=====================================
+#footer-uk{
+  background-color: #174799;
+  font-family:'San Francisco Display Light';
+  .bottom{
+    background-color: #000F9F;
+    font-size: 13px;
+    padding: 10px 0;
+    font-family:'San Francisco Display Light';
+  }
+}
+//=====================================
+.list1{
+  li{
+    padding-left: 60px;
+    position: relative;
+    margin: 0 !important;
+    span{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+//=====================================
+.list2{
+  li{
+    padding-left: 10px;
+    i.fa{
+      font-size: 10px;
+    }
+    a{
+      color: #ffffff;
+    }
+    &:last-child{
+      a{
+        border: 1px solid #fff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 26px;
+        height: 26px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+//=====================================

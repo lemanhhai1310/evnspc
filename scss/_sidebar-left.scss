@@ -1,0 +1,65 @@
+.card6{
+  .uk-card-header{
+    background-color: #17479B;
+    border-radius: 6px 6px 0 0;
+    font-family:'San Francisco Display Medium';
+  }
+  .uk-nav-default{
+    background-color: #fff;
+    li{
+      a{
+        padding: 10px 0px;
+        padding-right: 10px;
+        color: #333 !important;
+        border-top: 1px solid #e8eaee;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-family:'San Francisco Display Regular';
+        &:hover{
+          color: #17479B !important;
+        }
+      }
+    }
+  }
+  .uk-parent{
+    >a{
+      position: relative;
+      &:after{
+        content: "\f0da";
+        font: normal normal normal 14px/1 FontAwesome;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-image: none !important;
+        position: absolute;
+        right: -5px;
+        top: calc((100% - 21px)/2);
+      }
+    }
+    &.uk-open{
+      >a{
+        &:after{
+          content: "\f0d7";
+        }
+      }
+    }
+  }
+  .uk-nav-sub{
+    padding: 0;
+    li{
+      a{
+        padding-left: 10px;
+      }
+    }
+  }
+}
+.tab_1{
+  &:before{
+    border: none;
+  }
+  .uk-active{
+    a{
+
+    }
+  }
+}

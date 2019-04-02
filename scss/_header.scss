@@ -1,0 +1,180 @@
+.uk-logo{
+  img{
+    width: 150px;
+  }
+}
+//=====================================
+#header-uk{
+  .top{
+    background-color: #17479B;
+    color: #ffffff;
+    .uk-button{
+      background-color: transparent;
+      text-transform: capitalize;
+    }
+    .support{
+      font-family:'San Francisco Display Light';
+      padding: 5px 0;
+      i.fa{
+        margin-right: 5px;
+      }
+      span{
+        color: #ed1c24;
+        margin-left: 5px;
+        font-family:'San Francisco Display SemiBold';
+      }
+    }
+    .social_h{
+      a{
+        color: #ffffff;
+        padding: 0 5px;
+      }
+    }
+  }
+  .bottom{
+    border-bottom: 1px solid rgba(88, 89, 91, 0.14);
+    .uk-logo{
+      padding-left: 0;
+    }
+    .tool{
+      @media(min-width: 960px){
+        margin-left: 0 !important;
+      }
+      .uk-navbar-dropdown{
+        padding: 10px;
+        &.search1{
+          width: 300px;
+        }
+        margin: 0;
+      }
+      .uk-search-navbar{
+        .uk-search-input{
+          font-size: 15px;
+        }
+      }
+      .uk-navbar-nav{
+        >li{
+          &:nth-child(2){
+            >a{
+              @media(min-width: 960px){
+                padding-right: 0 !important;
+              }
+            }
+          }
+          &:last-child{
+            >a{
+              padding-right: 0 !important;
+            }
+          }
+        }
+      }
+    }
+    .uk-navbar-right{
+      &:not(.tools){
+        .uk-navbar-dropdown{
+          background-color: rgba(255, 255, 255, 0.93);
+          min-width: 246px;
+          .uk-navbar-dropdown-nav{
+            li{
+              a{
+
+              }
+            }
+          }
+        }
+      }
+      .uk-navbar-nav{
+        li{
+          a{
+            &:hover{
+              color: #17479B;
+            }
+          }
+        }
+      }
+      .uk-navbar-nav{
+        >li{
+          >a{
+            font-family: 'San Francisco Display Regular';
+            color: #333333;
+            padding: 6px 12px;
+          }
+          &:last-child{
+            >a{
+
+            }
+          }
+        }
+      }
+      .uk-navbar-dropdown{
+        padding: 0 !important;
+      }
+      .uk-navbar-dropdown-nav{
+        box-shadow: 0 5px 12px rgba(0,0,0,.15);
+        margin: 0;
+        li{
+          padding: 0;
+          width: 100%;
+        }
+        .uk-icon{
+          display: none;
+        }
+        &.right-out{
+          top: 0 !important;
+          left: 100%;
+          position: absolute;
+          display: none !important;
+        }
+        li{
+          position: relative;
+          &:nth-child(n+2){
+            //border-top: 1px solid #939496;
+            &:before{
+              content: '';
+              display: block;
+              position: absolute;
+              top: 0;
+              width: 90%;
+              left: calc((100% - 90%)/2);
+              border-top: 1px solid rgba(162, 163, 165, 0.6);
+            }
+          }
+          &:hover{
+            ul{
+              display: block;
+            }
+          }
+          a{
+            color: #58595B;
+            text-transform: capitalize;
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'San Francisco Display Regular';
+            &:hover{
+              background-color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//=====================================
+.search1{
+  background-color: rgba(255, 255, 255, 0.83);
+}
+//=====================================
+
+//=====================================
+
+//=====================================
+
+//=====================================
+
+//=====================================
+
+//=====================================
+
+//=====================================

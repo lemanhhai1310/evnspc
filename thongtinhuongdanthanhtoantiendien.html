@@ -1,0 +1,434 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ - EVN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="shortcut icon" href="imgs/favicon-19.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <!-- Date & Time Picker CSS -->
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/timepicker.css">
+    <link rel="stylesheet" href="css/daterangepicker.css">
+
+    <!-- Bootstrap File Upload CSS -->
+    <link rel="stylesheet" href="css/components/bs-filestyle.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <!--JS-->
+    <script src="assets/jquery/jquery-3.3.1.js"></script>
+    <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
+    <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!--Charts JS-->
+    <script src="js/chart.js"></script>
+    <script src="js/chart-utils.js"></script>
+
+    <!-- Date & Time Picker JS -->
+    <script src="js/components/moment.js"></script>
+    <script src="js/components/datepicker.js"></script>
+    <script src="js/components/timepicker.js"></script>
+
+    <!-- Include Date Range Picker -->
+    <script src="js/components/daterangepicker.js"></script>
+
+    <!-- Bootstrap File Upload Plugin -->
+    <script src="js/components/bs-filestyle.js"></script>
+
+    <script src="js/functions.js"></script>
+</head>
+<body>
+<section id="root" class="uk-height-viewport uk-offcanvas-content">
+    <div id="my-id" uk-offcanvas="overlay: true">
+        <button class="uk-offcanvas-close border-0 bg-transparent" type="button"><img src="imgs/img_back_menu.png" alt=""></button>
+        <div class="uk-offcanvas-bar uk-padding-remove bg-white">
+            <ul class="uk-nav-default uk-nav-parent-icon mb-2" uk-nav>
+                <li class="uk-active"><a href=".">Trang chủ</a></li>
+                <li class="uk-parent">
+                    <a href="about.html">Giới thiệu</a>
+                    <ul class="uk-nav-sub" hidden>
+                        <li><a href="about.html">Trung tâm CSKH EVNSPC</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Thông tin hỗ trợ</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="thongtinhuongdanthutucvedien.html">Hướng dẫn thủ tục</a></li>
+                        <li><a href="thongtinhuongdanthanhtoantiendien.html">Hướng dẫn thanh toán tiền điện</a></li>
+                        <li><a href="thongtinhoidap.html">Hỏi đáp</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Dịch vụ trực tuyến</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="capdienhaap1.html">Dịch vụ cấp điện mới</a></li>
+                        <li><a href="#">Dịch vụ trong QT thực hiện HĐMBĐ</a></li>
+                        <li><a href="#">Các dịch vụ hỗ trợ</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Tra cứu</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="tracuuchiso.html">Tra cứu chỉ số</a></li>
+                        <li><a href="tracuutiendien.html">Tra cứu tiền điện</a></li>
+                        <li><a href="hoadontiendien.html">Hóa đơn tiền điện</a></li>
+                        <li><a href="thongtinnotiendien.html">Thông tin nợ tiền điện</a></li>
+                        <li><a href="thongtinthanhtoantiendien.html">Thông tin thanh toán tiền điện</a></li>
+                        <li><a href="lichngunggiamcungcapdien.html">Lịch ngừng giảm cung cấp điện</a></li>
+                        <li><a href="lichghichiso.html">Lịch ghi chỉ số</a></li>
+                        <li><a href="diemthutiendien.html">Điểm thu tiền điện</a></li>
+                        <li><a href="thongtingiabandien.html">Thông tin giá bán điện</a></li>
+                        <li><a href="#">Thông tin phụ tải theo ngày</a></li>
+                        <li><a href="theodoitiendocapdien.html">Theo dõi tiến độ cấp điện</a></li>
+                        <li><a href="#">Theo dõi tiến độ các dịch vụ khác</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Tin tức</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="tintuc.html">Thông tin Trung tâm CSKH</a></li>
+                        <li><a href="tintuc.html">Thông tin ngành điện</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+    </div><header id="header-uk">
+    <div class="top">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-middle uk-flex-between">
+                <div class="support">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    Hỗ trợ trực tuyến 24/7:
+                    <span>19001006 - 19009000</span>
+                </div>
+                <div>
+                    <div class="uk-inline uk-visible@m">
+                        <div uk-form-custom="target: > * > span:first-child">
+                            <select>
+                                <option value="1">English</option>
+                                <option value="2">Vietnam</option>
+                            </select>
+                            <button class="uk-button" type="button" tabindex="-1">
+                                <span></span>
+                                <span uk-icon="icon: chevron-down"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="social_h uk-inline uk-visible@m">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom bg-white uk-box-shadow-small uk-position-z-index" style="z-index: 1000;" uk-sticky>
+        <div class="uk-container">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="."><img src="imgs/logo-04.svg" alt=""></a>
+                </div>
+
+                <div class="uk-navbar-right nav-overlay uk-visible@m">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="about.html">Giới thiệu</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="about.html">Trung tâm CSKH EVNSPC</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="thongtinhotro.html">Thông tin hỗ trợ</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="thongtinhuongdanthutucvedien.html">Hướng dẫn thủ tục</a></li>
+                                    <li>
+                                        <a href="thongtinhuongdanthanhtoantiendien.html">Hướng dẫn thanh toán tiền điện <span uk-icon="chevron-right"></span></a>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav right-out uk-width-medium bg-white">
+                                            <li><a href="thongtinhuongdanthutucvedien.html">Hướng dẫn thủ tục</a></li>
+                                            <li><a href="thongtinhuongdanthanhtoantiendien.html">Hướng dẫn thanh toán tiền điện</a></li>
+                                            <li><a href="thongtinhoidap.html">Hỏi đáp</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="thongtinhoidap.html">Hỏi đáp</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="dichvutructuyen.html">dịch vụ trực tuyến</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="capdienhaap1.html">Dịch vụ cấp điện mới</a></li>
+                                    <li><a href="#">Dịch vụ trong QT thực hiện HĐMBĐ</a></li>
+                                    <li><a href="#">Các dịch vụ hỗ trợ</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="tracuu.html">tra cứu</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="tracuuchiso.html">Tra cứu chỉ số</a></li>
+                                    <li><a href="tracuutiendien.html">Tra cứu tiền điện</a></li>
+                                    <li><a href="hoadontiendien.html">Hóa đơn tiền điện</a></li>
+                                    <li><a href="thongtinnotiendien.html">Thông tin nợ tiền điện</a></li>
+                                    <li><a href="thongtinthanhtoantiendien.html">Thông tin thanh toán tiền điện</a></li>
+                                    <li><a href="lichngunggiamcungcapdien.html">Lịch ngừng giảm cung cấp điện</a></li>
+                                    <li><a href="lichghichiso.html">Lịch ghi chỉ số</a></li>
+                                    <li><a href="diemthutiendien.html">Điểm thu tiền điện</a></li>
+                                    <li><a href="thongtingiabandien.html">Thông tin giá bán điện</a></li>
+                                    <li><a href="#">Thông tin phụ tải theo ngày</a></li>
+                                    <li><a href="theodoitiendocapdien.html">Theo dõi tiến độ cấp điện</a></li>
+                                    <li><a href="#">Theo dõi tiến độ các dịch vụ khác</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="tintuc.html">tin tức</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="tintuc.html">Thông tin Trung tâm CSKH</a></li>
+                                    <li><a href="tintuc.html">Thông tin ngành điện</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="lienhe.html">liên hệ</a></li>
+                    </ul>
+
+
+                </div>
+                <div class="uk-navbar-right nav-overlay tool">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
+                            <div class="uk-navbar-dropdown search1" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <form class="uk-search uk-search-navbar uk-width-1-1" hidden>
+                                            <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                                        </form>
+                                        <form action="ketquatimkiem.html" class="uk-search uk-search-default uk-width-1-1">
+                                            <span uk-search-icon></span>
+                                            <input class="uk-search-input border-0" type="search" placeholder="Tìm kiếm">
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <a href="account.html"><span uk-icon="user"></span></a>
+                            <div class="uk-navbar-dropdown uk-padding-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">XIN CHÀO P112221</a></li>
+                                    <li><a class="uk-text-truncate" href="thongtintaikhoan.html">Thông tin tài khoản</a></li>
+                                    <li><a class="uk-text-truncate" href="thongtinlienhe.html">thay đổi thông tin tài khoản</a></li>
+                                    <li><a class="uk-text-truncate" href="thaydoimatkhau.html">thay đổi mật khẩu</a></li>
+                                    <li><a href="#" class="uk-flex uk-flex-middle uk-flex-between uk-text-truncate" style="display: flex;">đăng xuất <span uk-icon="sign-out"></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="uk-hidden@m"><a href="#my-id" class="pr-0 uk-navbar-toggle" uk-toggle><span uk-icon="menu"></span></a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</header><div class="block_g uk-section-large uk-background-cover" style="background-image: url('imgs/bg/2-24.jpg')">
+    <div class="uk-container">
+        <h1 class="title uk-text-uppercase uk-h2 uk-text-white">thông tin hỗ trợ</h1>
+        <ul class="uk-breadcrumb">
+            <li><a href=".">Trang chủ</a></li>
+            <li><a href="thongtinhotro.html">Thông tin hỗ trợ</a></li>
+            <li><span>Hướng dẫn thủ tục</span></li>
+        </ul>
+    </div>
+</div>
+    <div class="uk-section-small bg-white">
+        <div class="uk-container">
+            <div class="uk-grid" uk-margin>
+                <div class="uk-width-1-1">
+                    <h3 class="title_c uk-text-uppercase uk-margin-large">thông tin hướng dẫn thanh toán tiền điện</h3>
+                    <div class="uk-card uk-card-default card9 uk-card-body">
+                        <div class="uk-grid uk-flex-middle uk-grid-large">
+                            <div class="uk-width-3-5@m">
+                                <ul class="qas" uk-accordion>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">
+                                            Hướng dẫn thanh toán tiền điện qua hệ thống ATM của các Ngân hàng.
+                                            <span class="uk-position-center-right plus" uk-icon="plus-circle"></span>
+                                            <span class="uk-position-center-right minus" uk-icon="minus-circle"></span>
+                                        </a>
+                                        <div class="uk-accordion-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">
+                                            Thanh toán tiền điện trưc tuyến qua Website của các Ngân hàng.
+                                            <span class="uk-position-center-right plus" uk-icon="plus-circle"></span>
+                                            <span class="uk-position-center-right minus" uk-icon="minus-circle"></span>
+                                        </a>
+                                        <div class="uk-accordion-content">
+                                            <p>Vào mùa hè, nhất là những thời điểm nắng nóng, nhu cầu sử dụng các thiết bị làm mát của các hộ gia đình tăng hơn so với bình thường. Vì thế điện năng tiêu thụ sẽ nhiều hơn và tiền điện tăng. Sau đây là một số cách có thể giúp tiết kiệm điện năng: - Sử dụng điều hòa: nhiệt độ để không dưới 25 độ, bật thêm quạt - Sử dụng tủ lạnh: Không chất nhiều thức ăn - Sử dụng các loại bếp dùng điện: bếp từ tiêu hao điện năng ít hơn bếp hồng ngoại</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">
+                                            Ủy nhiệm ngân hàng thanh toán tiền điện hàng tháng (Ủy nhiệm thanh toán tự động).
+                                            <span class="uk-position-center-right plus" uk-icon="plus-circle"></span>
+                                            <span class="uk-position-center-right minus" uk-icon="minus-circle"></span>
+                                        </a>
+                                        <div class="uk-accordion-content">
+                                            <p>Vào mùa hè, nhất là những thời điểm nắng nóng, nhu cầu sử dụng các thiết bị làm mát của các hộ gia đình tăng hơn so với bình thường. Vì thế điện năng tiêu thụ sẽ nhiều hơn và tiền điện tăng. Sau đây là một số cách có thể giúp tiết kiệm điện năng: - Sử dụng điều hòa: nhiệt độ để không dưới 25 độ, bật thêm quạt - Sử dụng tủ lạnh: Không chất nhiều thức ăn - Sử dụng các loại bếp dùng điện: bếp từ tiêu hao điện năng ít hơn bếp hồng ngoại</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">
+                                            Thanh toán tiền điện bằng hình thức chuyển khoản Ủy nhiệm thu.
+                                            <span class="uk-position-center-right plus" uk-icon="plus-circle"></span>
+                                            <span class="uk-position-center-right minus" uk-icon="minus-circle"></span>
+                                        </a>
+                                        <div class="uk-accordion-content">
+                                            <p>Vào mùa hè, nhất là những thời điểm nắng nóng, nhu cầu sử dụng các thiết bị làm mát của các hộ gia đình tăng hơn so với bình thường. Vì thế điện năng tiêu thụ sẽ nhiều hơn và tiền điện tăng. Sau đây là một số cách có thể giúp tiết kiệm điện năng: - Sử dụng điều hòa: nhiệt độ để không dưới 25 độ, bật thêm quạt - Sử dụng tủ lạnh: Không chất nhiều thức ăn - Sử dụng các loại bếp dùng điện: bếp từ tiêu hao điện năng ít hơn bếp hồng ngoại</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">
+                                            Thanh toán tiền điện bằng hình thức chuyển khoản Ủy nhiệm thu.
+                                            <span class="uk-position-center-right plus" uk-icon="plus-circle"></span>
+                                            <span class="uk-position-center-right minus" uk-icon="minus-circle"></span>
+                                        </a>
+                                        <div class="uk-accordion-content">
+                                            <p>Vào mùa hè, nhất là những thời điểm nắng nóng, nhu cầu sử dụng các thiết bị làm mát của các hộ gia đình tăng hơn so với bình thường. Vì thế điện năng tiêu thụ sẽ nhiều hơn và tiền điện tăng. Sau đây là một số cách có thể giúp tiết kiệm điện năng: - Sử dụng điều hòa: nhiệt độ để không dưới 25 độ, bật thêm quạt - Sử dụng tủ lạnh: Không chất nhiều thức ăn - Sử dụng các loại bếp dùng điện: bếp từ tiêu hao điện năng ít hơn bếp hồng ngoại</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-2-5@m uk-flex-first@m">
+                                <img src="imgs/icon_thongtinhotro/icon-ttht-2.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p>Để biết thêm chi tiết các điểm thu tiền điện tại địa bàn cư ngụ, Quý khách hàng có thể liên hệ Tổng đài 19001006 của Trung tâm Chăm sóc Khách hàng Điện lực miền Nam để được hỗ trợ thêm.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block3 bg-white">
+        <div class="uk-container">
+            <div class="uk-flex-middle uk-flex-between" uk-grid>
+                <div class="uk-width-auto@m">
+                    <figure class="logo_f">
+                        <a href="#"><img src="imgs/logo-04.svg" alt=""></a>
+                    </figure>
+                </div>
+                <div class="uk-width-3-5@m">
+                    <form class="uk-grid-small uk-grid-collapse box_register uk-grid" uk-grid="">
+                        <div class="uk-width-expand uk-first-column">
+                            <input class="uk-input" type="email" placeholder="Nhập email để nhận thông báo từ Trung tâm CSKH EVNSPC">
+                        </div>
+                        <div class="uk-width-auto">
+                            <button type="submit" class="uk-button uk-button-primary">đăng ký</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer-uk" class="uk-text-white">
+        <div class="uk-section-small">
+            <div class="uk-container">
+                <div class="uk-child-width-1-3@m uk-flex-between" uk-grid>
+                    <div>
+                        <address>
+                            Chi nhánh Tổng Công ty Điện lực miền Nam <br>
+                            TNHH  Trung Tâm Chăm sóc khách hàng <br>
+                            MST/ĐKKD/QĐTL: 0300942001-041
+                        </address>
+                        <a href="#"><img src="imgs/bct.png" alt=""></a>
+                    </div>
+                    <div>
+                        <address>
+                            <ul class="uk-list list1">
+                                <li>
+                                    <span>Địa chỉ:</span>
+                                    số 12 Thi Sách, phường Bến Nghé,
+                                    quận 1, thành phố Hồ Chí Minh
+                                </li>
+                                <li>
+                                    <span>Hotline:</span>
+                                    19001006-19009000
+                                </li>
+                                <li>
+                                    <span>Fax:</span>
+                                    028.35218900
+                                </li>
+                                <li>
+                                    <span>Email:</span>
+                                    cskh@evnspc.vn
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="uk-width-auto">
+                        <ul class="uk-list uk-column-1-2 list2">
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Giới thiệu</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Thông tin hỗ trợ</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Dịch vụ trực tuyến</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Tra cứu</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Tin tức</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Liên hệ</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="uk-container">© 2018 EVNSPC CSKH. ALL RIGHTS RESERVED.</div>
+        </div>
+    </footer>
+    <div class="back-to-top">
+        <a href="javascript:void(0);">Top</a>
+    </div>
+</section>
+<script data-prepros-origin-host="localhost" src="http://localhost:7925/__prepros-server__/prepros.js"> </script>
+</body>
+</html>

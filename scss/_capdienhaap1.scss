@@ -1,0 +1,307 @@
+.link_hd{
+  font-family:'San Francisco Display Light';
+}
+.form1{
+  .uk-input,
+  .uk-textarea,
+  .uk-button-default{
+    border-radius: 2px;
+    text-align: left;
+    font-family:'San Francisco Display Light';
+    color: #8F9194;
+    background-color: #F6F6F6;
+  }
+  .uk-button{
+    position: relative;
+    .uk-icon{
+      position: absolute;
+      right: 5px;
+      top: 10px;
+    }
+  }
+  .btn-primary{
+    background-color: #17479B;
+    border-color: #17479B;
+    font-family:'San Francisco Display Light';
+    border: none;
+  }
+  .file-caption-name{
+    font-family:'San Francisco Display Light';
+  }
+  .file-drop-zone-title{
+    font-family:'San Francisco Display Medium';
+  }
+  .uk-form-label{
+    font-family:'San Francisco Display Light';
+    color: #58595B;
+  }
+  .uk-form-controls{
+    position: relative;
+  }
+}
+.card8{
+  background-color: #F2F2F2;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+.table1{
+  tr{
+    th,td{
+      //text-align: center;
+    }
+    td{
+      padding: 4px 0;
+      &:nth-child(1){
+        color: #58595B;
+
+        font-family:'San Francisco Display Light';
+      }
+      &:nth-child(2){
+        color: #58595B;
+        font-family:'San Francisco Display Medium';
+      }
+    }
+  }
+}
+.bank1{
+  input[type='radio']{
+    display: none;
+    &:checked + .uk-card{
+      outline: -webkit-focus-ring-color auto 5px;
+    }
+  }
+  .uk-card{
+    height: 90px;
+    overflow: hidden;
+    img{
+
+    }
+  }
+}
+.title_ctd{
+  font-family:'San Francisco Display Medium';
+  font-size: 15px;
+  span{
+    color: #58595B !important;
+    display: inline-block;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #17479B;
+  }
+}
+.tab_tracuu{
+  li{
+    &:first-child{
+      padding-left: 20px !important;
+    }
+    &.uk-active{
+      a{
+        border-top: 3px solid #17479B;
+      }
+    }
+    a{
+      padding: 7px 20px !important;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      font-size: 15px !important;
+      text-transform: inherit !important;
+      font-family:'San Francisco Display Light' !important;
+    }
+  }
+}
+.table2{
+  tr{
+    th,
+    td{
+      border: 1px solid #e5e5e5;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  tr{
+    th{
+      font-family:'San Francisco Display Medium';
+    }
+    td{
+      font-family:'San Francisco Display Light' !important;
+    }
+  }
+  thead{
+    tr{
+      th{
+        font-family:'San Francisco Display Medium';
+        color: #17479B;
+        font-size: 14px;
+        text-align: center;
+        background-color: #F6F6F6;
+        text-transform: inherit;
+      }
+    }
+  }
+}
+.box_alert{
+  font-family:'San Francisco Display Light' !important;
+  color: #333333;
+  &.uk-alert-success{
+    span{
+      color: #32d296;
+    }
+  }
+  &.uk-alert-danger{
+    span{
+      color: #f0506e;
+    }
+  }
+  span{
+    font-family:'San Francisco Display Medium';
+  }
+}
+.table3{
+  thead{
+    tr{
+      th{
+        text-transform: inherit !important;
+        &:first-child{
+          text-align: left !important;
+        }
+      }
+    }
+  }
+  tr{
+    th,td{
+      text-align: center;
+      font-family:'San Francisco Display Light';
+      color: #58595B;
+    }
+    td{
+      &:first-child{
+        text-align: left;
+      }
+      &:nth-child(2){
+        color: #17479B;
+        font-family:'San Francisco Display Medium';
+      }
+    }
+  }
+}
+.card9{
+
+}
+.qas{
+  li{
+    &:nth-child(n+2){
+      margin-top: 8px;
+    }
+    a{
+      background-color: #F2F2F2;
+      padding: 10px;
+      padding-right: 40px;
+      font-family:'San Francisco Display Regular';
+      font-size: 15px;
+      border-radius: 4px;
+      position: relative;
+      .uk-icon{
+        right: 10px;
+        &.minus{
+          opacity: 0;
+        }
+      }
+    }
+    .uk-accordion-title{
+      &:before{
+        display: none;
+      }
+    }
+    .uk-accordion-content{
+      padding: 15px;
+      margin: 0;
+      font-family:'San Francisco Display Light';
+    }
+    &.uk-open{
+      .uk-icon{
+        &.plus{
+          opacity: 0 !important;
+        }
+        &.minus{
+          opacity: 1 !important;
+        }
+      }
+    }
+  }
+}
+.tab_hd{
+  li{
+    &:first-child{
+      a{
+        border-radius: 4px 0px 0 0;
+      }
+    }
+    &:last-child{
+      a{
+        border-radius: 0px 4px 0 0;
+      }
+    }
+    &:nth-child(n+2){
+      border-right: 1px solid #fff;
+      margin-left: -1px;
+      border-left: 1px solid #fff;
+
+    }
+    a{
+      background-color: #17479B !important;
+      text-align: center;
+      padding: 20px 10px !important;
+      color: #FFFFFF !important;
+    }
+    &.uk-active{
+      a{
+        background-color: #fff !important;
+        color: #17479B !important;
+        border-bottom: 1px solid #DDDFE2;
+        border-top: 4px solid #17479B;
+        margin-top: -5px;
+      }
+    }
+  }
+}
+.list5{
+  li{
+    font-family:'San Francisco Display Medium';
+  }
+}
+.article_header{
+  h1{
+    font-family:'San Francisco Display Medium';
+  }
+}
+.social_article{
+  a{
+    color: #58595B;
+    margin: 0 5px;
+    i.fa{
+      font-size: 24px;
+    }
+  }
+}
+.title_article{
+  font-family:'San Francisco Display Medium';
+  font-size: 16px;
+}
+.card10{
+  color: #58595B !important;
+  .uk-card-body{
+    padding-left: 0;
+    padding-right: 0;
+    .uk-card-title{
+      font-size: 15px;
+      font-family:'San Francisco Display Medium';
+      margin-bottom: 10px;
+      a{
+        color: #58595B;
+      }
+    }
+    time{
+      font-family:'San Francisco Display Light';
+    }
+  }
+}

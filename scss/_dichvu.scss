@@ -1,0 +1,304 @@
+.title_c{
+  font-family:'San Francisco Display Bold';
+  color: #17479B;
+}
+//=====================================
+.card2{
+  &:hover{
+    background-color: #17479B;
+    .uk-card-title{
+      color: #FFFFFF;
+    }
+  }
+  border-radius: 4px;
+  padding: 40px 30px;
+  .icon{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px;
+  }
+  .uk-card-title{
+    font-size: 14px;
+    font-family:'San Francisco Display Medium';
+    color: #58595B;
+  }
+  &.dien_low1{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/icon1/icon-white-1.svg") !important;
+      }
+    }
+  }
+  &.dien_low2{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/icon1/icon-white-2.svg") !important;
+      }
+    }
+  }
+  &.dien_low3{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/icon1/icon-white-3.svg") !important;
+
+      }
+    }
+  }
+  &.dien4{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 2.svg") !important;
+      }
+    }
+  }
+  &.dien5{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/icon fix/icon-white-10.svg") !important;
+      }
+    }
+  }
+  &.dien6{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 4.svg") !important;
+      }
+    }
+  }
+  &.dien7{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 5.svg") !important;
+      }
+    }
+  }
+  &.dien8{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 6.svg") !important;
+      }
+    }
+  }
+  &.dien9{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 7.svg") !important;
+      }
+    }
+  }
+  &.dien10{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 8.svg") !important;
+      }
+    }
+  }
+  &.dien11{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 9.svg") !important;
+      }
+    }
+  }
+  &.dien12{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 10.svg") !important;
+      }
+    }
+  }
+  &.dien13{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 11.svg") !important;
+      }
+    }
+  }
+  &.dien14{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 12.svg") !important;
+      }
+    }
+  }
+  &.dien15{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 13.svg") !important;
+      }
+    }
+  }
+  &.dien16{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 14.svg") !important;
+      }
+    }
+  }
+  &.dien17{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 15.svg") !important;
+      }
+    }
+  }
+  &.dien18{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 16.svg") !important;
+      }
+    }
+  }
+  &.dien19{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 17.svg") !important;
+      }
+    }
+  }
+  &.dien20{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 18.svg") !important;
+      }
+    }
+  }
+  &.dien21{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 19.svg") !important;
+      }
+    }
+  }
+  &.dien22{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 1/Asset 20.svg") !important;
+      }
+    }
+  }
+  &.tracuu1{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 1.svg") !important;
+      }
+    }
+  }
+  &.tracuu2{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 2.svg") !important;
+      }
+    }
+  }
+  &.tracuu3{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 3.svg") !important;
+      }
+    }
+  }
+  &.tracuu4{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 4.svg") !important;
+      }
+    }
+  }
+  &.tracuu5{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 5.svg") !important;
+      }
+    }
+  }
+  &.tracuu6{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 6.svg") !important;
+      }
+    }
+  }
+  &.tracuu7{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 7.svg") !important;
+      }
+    }
+  }
+  &.tracuu8{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 8.svg") !important;
+      }
+    }
+  }
+  &.tracuu9{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 9.svg") !important;
+      }
+    }
+  }
+  &.tracuu10{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 10.svg") !important;
+      }
+    }
+  }
+  &.tracuu11{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 11.svg") !important;
+      }
+    }
+  }
+  &.tracuu12{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/SVG 2/Asset 12.svg") !important;
+      }
+    }
+  }
+  &.hotro1{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/icon page thong tin ho tro/icon-ttht-white-1.svg") !important;
+      }
+    }
+  }
+  &.hotro2{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/icon page thong tin ho tro/icon-ttht-white-2.svg") !important;
+      }
+    }
+  }
+  &.hotro3{
+    &:hover{
+      .icon{
+        background-image: url("../imgs/icon page thong tin ho tro/icon-ttht-white-3.svg") !important;
+      }
+    }
+  }
+  &.lienhe{
+    &:hover{
+      background-color: #fff;
+    }
+    .icon{
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    .uk-card-title{
+      font-size: 20px;
+      margin-bottom: 5px;
+      color: #58595B !important;
+      font-family:'San Francisco Display Medium';
+    }
+    .desc{
+      margin: 0;
+      font-family:'San Francisco Display Regular';
+    }
+  }
+}

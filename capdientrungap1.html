@@ -1,0 +1,970 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ - EVN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="shortcut icon" href="imgs/favicon-19.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <!-- Date & Time Picker CSS -->
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/timepicker.css">
+    <link rel="stylesheet" href="css/daterangepicker.css">
+
+    <!-- Bootstrap File Upload CSS -->
+    <link rel="stylesheet" href="css/components/bs-filestyle.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <!--JS-->
+    <script src="assets/jquery/jquery-3.3.1.js"></script>
+    <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
+    <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!--Charts JS-->
+    <script src="js/chart.js"></script>
+    <script src="js/chart-utils.js"></script>
+
+    <!-- Date & Time Picker JS -->
+    <script src="js/components/moment.js"></script>
+    <script src="js/components/datepicker.js"></script>
+    <script src="js/components/timepicker.js"></script>
+
+    <!-- Include Date Range Picker -->
+    <script src="js/components/daterangepicker.js"></script>
+
+    <!-- Bootstrap File Upload Plugin -->
+    <script src="js/components/bs-filestyle.js"></script>
+
+    <script src="js/functions.js"></script>
+</head>
+<body>
+<section id="root" class="uk-height-viewport uk-offcanvas-content">
+    <div id="my-id" uk-offcanvas="overlay: true">
+        <button class="uk-offcanvas-close border-0 bg-transparent" type="button"><img src="imgs/img_back_menu.png" alt=""></button>
+        <div class="uk-offcanvas-bar uk-padding-remove bg-white">
+            <ul class="uk-nav-default uk-nav-parent-icon mb-2" uk-nav>
+                <li class="uk-active"><a href=".">Trang chủ</a></li>
+                <li class="uk-parent">
+                    <a href="about.html">Giới thiệu</a>
+                    <ul class="uk-nav-sub" hidden>
+                        <li><a href="about.html">Trung tâm CSKH EVNSPC</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Thông tin hỗ trợ</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="thongtinhuongdanthutucvedien.html">Hướng dẫn thủ tục</a></li>
+                        <li><a href="thongtinhuongdanthanhtoantiendien.html">Hướng dẫn thanh toán tiền điện</a></li>
+                        <li><a href="thongtinhoidap.html">Hỏi đáp</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Dịch vụ trực tuyến</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="capdienhaap1.html">Dịch vụ cấp điện mới</a></li>
+                        <li><a href="#">Dịch vụ trong QT thực hiện HĐMBĐ</a></li>
+                        <li><a href="#">Các dịch vụ hỗ trợ</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Tra cứu</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="tracuuchiso.html">Tra cứu chỉ số</a></li>
+                        <li><a href="tracuutiendien.html">Tra cứu tiền điện</a></li>
+                        <li><a href="hoadontiendien.html">Hóa đơn tiền điện</a></li>
+                        <li><a href="thongtinnotiendien.html">Thông tin nợ tiền điện</a></li>
+                        <li><a href="thongtinthanhtoantiendien.html">Thông tin thanh toán tiền điện</a></li>
+                        <li><a href="lichngunggiamcungcapdien.html">Lịch ngừng giảm cung cấp điện</a></li>
+                        <li><a href="lichghichiso.html">Lịch ghi chỉ số</a></li>
+                        <li><a href="diemthutiendien.html">Điểm thu tiền điện</a></li>
+                        <li><a href="thongtingiabandien.html">Thông tin giá bán điện</a></li>
+                        <li><a href="#">Thông tin phụ tải theo ngày</a></li>
+                        <li><a href="theodoitiendocapdien.html">Theo dõi tiến độ cấp điện</a></li>
+                        <li><a href="#">Theo dõi tiến độ các dịch vụ khác</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Tin tức</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="tintuc.html">Thông tin Trung tâm CSKH</a></li>
+                        <li><a href="tintuc.html">Thông tin ngành điện</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+    </div><header id="header-uk">
+    <div class="top">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-middle uk-flex-between">
+                <div class="support">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    Hỗ trợ trực tuyến 24/7:
+                    <span>19001006 - 19009000</span>
+                </div>
+                <div>
+                    <div class="uk-inline uk-visible@m">
+                        <div uk-form-custom="target: > * > span:first-child">
+                            <select>
+                                <option value="1">English</option>
+                                <option value="2">Vietnam</option>
+                            </select>
+                            <button class="uk-button" type="button" tabindex="-1">
+                                <span></span>
+                                <span uk-icon="icon: chevron-down"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="social_h uk-inline uk-visible@m">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom bg-white uk-box-shadow-small uk-position-z-index" style="z-index: 1000;" uk-sticky>
+        <div class="uk-container">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="."><img src="imgs/logo-04.svg" alt=""></a>
+                </div>
+
+                <div class="uk-navbar-right nav-overlay uk-visible@m">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="about.html">Giới thiệu</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="about.html">Trung tâm CSKH EVNSPC</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="thongtinhotro.html">Thông tin hỗ trợ</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="thongtinhuongdanthutucvedien.html">Hướng dẫn thủ tục</a></li>
+                                    <li>
+                                        <a href="thongtinhuongdanthanhtoantiendien.html">Hướng dẫn thanh toán tiền điện <span uk-icon="chevron-right"></span></a>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav right-out uk-width-medium bg-white">
+                                            <li><a href="thongtinhuongdanthutucvedien.html">Hướng dẫn thủ tục</a></li>
+                                            <li><a href="thongtinhuongdanthanhtoantiendien.html">Hướng dẫn thanh toán tiền điện</a></li>
+                                            <li><a href="thongtinhoidap.html">Hỏi đáp</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="thongtinhoidap.html">Hỏi đáp</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="dichvutructuyen.html">dịch vụ trực tuyến</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="capdienhaap1.html">Dịch vụ cấp điện mới</a></li>
+                                    <li><a href="#">Dịch vụ trong QT thực hiện HĐMBĐ</a></li>
+                                    <li><a href="#">Các dịch vụ hỗ trợ</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="tracuu.html">tra cứu</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="tracuuchiso.html">Tra cứu chỉ số</a></li>
+                                    <li><a href="tracuutiendien.html">Tra cứu tiền điện</a></li>
+                                    <li><a href="hoadontiendien.html">Hóa đơn tiền điện</a></li>
+                                    <li><a href="thongtinnotiendien.html">Thông tin nợ tiền điện</a></li>
+                                    <li><a href="thongtinthanhtoantiendien.html">Thông tin thanh toán tiền điện</a></li>
+                                    <li><a href="lichngunggiamcungcapdien.html">Lịch ngừng giảm cung cấp điện</a></li>
+                                    <li><a href="lichghichiso.html">Lịch ghi chỉ số</a></li>
+                                    <li><a href="diemthutiendien.html">Điểm thu tiền điện</a></li>
+                                    <li><a href="thongtingiabandien.html">Thông tin giá bán điện</a></li>
+                                    <li><a href="#">Thông tin phụ tải theo ngày</a></li>
+                                    <li><a href="theodoitiendocapdien.html">Theo dõi tiến độ cấp điện</a></li>
+                                    <li><a href="#">Theo dõi tiến độ các dịch vụ khác</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="tintuc.html">tin tức</a>
+                            <div class="uk-navbar-dropdown uk-margin-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="tintuc.html">Thông tin Trung tâm CSKH</a></li>
+                                    <li><a href="tintuc.html">Thông tin ngành điện</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="lienhe.html">liên hệ</a></li>
+                    </ul>
+
+
+                </div>
+                <div class="uk-navbar-right nav-overlay tool">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
+                            <div class="uk-navbar-dropdown search1" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <form class="uk-search uk-search-navbar uk-width-1-1" hidden>
+                                            <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                                        </form>
+                                        <form action="ketquatimkiem.html" class="uk-search uk-search-default uk-width-1-1">
+                                            <span uk-search-icon></span>
+                                            <input class="uk-search-input border-0" type="search" placeholder="Tìm kiếm">
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <a href="account.html"><span uk-icon="user"></span></a>
+                            <div class="uk-navbar-dropdown uk-padding-remove">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">XIN CHÀO P112221</a></li>
+                                    <li><a class="uk-text-truncate" href="thongtintaikhoan.html">Thông tin tài khoản</a></li>
+                                    <li><a class="uk-text-truncate" href="thongtinlienhe.html">thay đổi thông tin tài khoản</a></li>
+                                    <li><a class="uk-text-truncate" href="thaydoimatkhau.html">thay đổi mật khẩu</a></li>
+                                    <li><a href="#" class="uk-flex uk-flex-middle uk-flex-between uk-text-truncate" style="display: flex;">đăng xuất <span uk-icon="sign-out"></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="uk-hidden@m"><a href="#my-id" class="pr-0 uk-navbar-toggle" uk-toggle><span uk-icon="menu"></span></a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</header><div class="block_g uk-section-large uk-background-cover" style="background-image: url('imgs/bg/1-23.jpg')">
+    <div class="uk-container">
+        <h1 class="title uk-text-uppercase uk-h2 uk-text-white">dịch vụ trực tuyến</h1>
+        <ul class="uk-breadcrumb">
+            <li><a href="#">Trang chủ</a></li>
+            <li><span>Dịch vụ trực tuyến</span></li>
+        </ul>
+    </div>
+</div>
+    <div class="uk-section-small bg-white">
+        <div class="uk-container">
+            <div class="uk-grid" uk-margin>
+                <div class="uk-width-2-3@m">
+                    <h3 class="title_c uk-text-uppercase uk-margin-remove">cấp điện từ lưới điện trung áp</h3>
+                    <a href="#" class="link_hd">Click vào đây để xem hướng dẫn thực hiện</a>
+                    <form>
+                        <ul class="uk-subnav uk-subnav-pill" hidden uk-switcher>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                        <ul class="uk-switcher uk-margin">
+                            <li>
+                                <ul class="block_steps uk-grid-collapse uk-grid uk-flex uk-flex-middle uk-flex-around uk-child-width-1-3 uk-margin-medium-top uk-margin-large-bottom">
+                                    <li class="uk-active">
+                                        <div class="box_step uk-text-center uk-position-relative uk-position-z-index">
+                                            <i class="fa fa-3x fa-info-circle" aria-hidden="true"></i>
+                                            <span class="uk-position-bottom uk-text-truncate uk-visible@s">Nhập dữ liệu</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box_step uk-text-center uk-position-relative uk-position-z-index">
+                                            <i class="fa fa-3x fa-picture-o" aria-hidden="true"></i>
+                                            <span class="uk-position-bottom uk-text-truncate uk-visible@s">Thêm hình đính kèm</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box_step uk-text-center uk-position-relative uk-position-z-index">
+                                            <i class="fa fa-3x fa-check-circle-o" aria-hidden="true"></i>
+                                            <span class="uk-position-bottom uk-text-truncate uk-visible@s">Xác nhận đăng ký</span>
+                                        </div>
+                                    </li>
+                                </ul>                            <div class="uk-grid-small uk-form-stacked uk-margin form1" uk-grid>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Họ tên người yêu cầu <sup class="uk-text-danger">*</sup></div>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" type="text" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Điện thoại <sup class="uk-text-danger">*</sup></div>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" type="tel" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Email <sup class="uk-text-danger">*</sup></div>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" type="email" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Số chứng minh thư <sup class="uk-text-danger">*</sup></div>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" type="tel" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Ngày cấp <sup class="uk-text-danger">*</sup></div>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input past-enabled" type="text" value="" placeholder="dd-mm-yyyy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Nơi cấp <sup class="uk-text-danger">*</sup></div>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" type="text" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Tỉnh/Thành phố <sup class="uk-text-danger">*</sup></div>
+                                        <div class=" uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                            <select>
+                                                <option value="">Chọn tỉnh / thành phố</option>
+                                                <option value="1">Option 01</option>
+                                                <option value="2">Option 02</option>
+                                                <option value="3">Option 03</option>
+                                                <option value="4">Option 04</option>
+                                            </select>
+                                            <button class="uk-button uk-button-default uk-width-1-1 uk-text-capitalize uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" type="button" tabindex="-1">
+                                                <span></span>
+                                                <span uk-icon="icon: chevron-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Quận/Huyện <sup class="uk-text-danger">*</sup></div>
+                                        <div class=" uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                            <select>
+                                                <option value="">Chọn quận / huyện</option>
+                                                <option value="1">Option 01</option>
+                                                <option value="2">Option 02</option>
+                                                <option value="3">Option 03</option>
+                                                <option value="4">Option 04</option>
+                                            </select>
+                                            <button class="uk-button uk-button-default uk-width-1-1 uk-text-capitalize uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" type="button" tabindex="-1">
+                                                <span></span>
+                                                <span uk-icon="icon: chevron-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Phường/Xã <sup class="uk-text-danger">*</sup></div>
+                                        <div class=" uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                            <select>
+                                                <option value="">Chọn phường / xã</option>
+                                                <option value="1">Option 01</option>
+                                                <option value="2">Option 02</option>
+                                                <option value="3">Option 03</option>
+                                                <option value="4">Option 04</option>
+                                            </select>
+                                            <button class="uk-button uk-button-default uk-width-1-1 uk-text-capitalize uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" type="button" tabindex="-1">
+                                                <span></span>
+                                                <span uk-icon="icon: chevron-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Địa chỉ <sup class="uk-text-danger">*</sup></div>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" type="text" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Số pha <sup class="uk-text-danger">*</sup></div>
+                                        <div class=" uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                            <select>
+                                                <option value="">1 Pha</option>
+                                                <option value="1">Option 01</option>
+                                                <option value="2">Option 02</option>
+                                                <option value="3">Option 03</option>
+                                                <option value="4">Option 04</option>
+                                            </select>
+                                            <button class="uk-button uk-button-default uk-width-1-1 uk-text-capitalize uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" type="button" tabindex="-1">
+                                                <span></span>
+                                                <span uk-icon="icon: chevron-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Mục đích sử dụng <sup class="uk-text-danger">*</sup></div>
+                                        <div class=" uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                            <select>
+                                                <option value="">Sinh hoạt</option>
+                                                <option value="1">Option 01</option>
+                                                <option value="2">Option 02</option>
+                                                <option value="3">Option 03</option>
+                                                <option value="4">Option 04</option>
+                                            </select>
+                                            <button class="uk-button uk-button-default uk-width-1-1 uk-text-capitalize uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" type="button" tabindex="-1">
+                                                <span></span>
+                                                <span uk-icon="icon: chevron-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-3@s">
+                                    <div class="uk-margin">
+                                        <div class="uk-form-label" for="form-stacked-text">Loại hình dịch vụ <sup class="uk-text-danger">*</sup></div>
+                                        <div class=" uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                            <select>
+                                                <option value="">Mua điện sinh hoạt</option>
+                                                <option value="1">Option 01</option>
+                                                <option value="2">Option 02</option>
+                                                <option value="3">Option 03</option>
+                                                <option value="4">Option 04</option>
+                                            </select>
+                                            <button class="uk-button uk-button-default uk-width-1-1 uk-text-capitalize uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" type="button" tabindex="-1">
+                                                <span></span>
+                                                <span uk-icon="icon: chevron-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <script>
+                                    $(function() {
+                                        $('.form1 .default').datepicker({
+                                            autoclose: true,
+                                            startDate: "today",
+                                        });
+
+                                        $('.form1 .today').datepicker({
+                                            autoclose: true,
+                                            startDate: "today",
+                                            format: "dd-mm-yyyy",
+                                            todayHighlight: true
+                                        });
+
+                                        $('.form1 .past-enabled').datepicker({
+                                            autoclose: true,
+                                            format: "dd-mm-yyyy",
+                                        });
+                                        $('.form1 .format').datepicker({
+                                            autoclose: true,
+                                            format: "dd-mm-yyyy",
+                                        });
+
+                                        $('.form1 .autoclose').datepicker();
+
+                                        $('.form1 .disabled-week').datepicker({
+                                            autoclose: true,
+                                            daysOfWeekDisabled: "0"
+                                        });
+
+                                        $('.form1 .highlighted-week').datepicker({
+                                            autoclose: true,
+                                            daysOfWeekHighlighted: "0"
+                                        });
+
+                                        $('.form1 .mnth').datepicker({
+                                            autoclose: true,
+                                            minViewMode: 1,
+                                            format: "mm/yy"
+                                        });
+
+                                        $('.form1 .multidate').datepicker({
+                                            multidate: true,
+                                            multidateSeparator: " , "
+                                        });
+
+                                        $('.form1 .input-daterange').datepicker({
+                                            autoclose: true
+                                        });
+
+                                        $('.form1 .inline-calendar').datepicker();
+
+                                        $('.datetimepicker').datetimepicker({
+                                            showClose: true
+                                        });
+
+                                        $('.datetimepicker1').datetimepicker({
+                                            format: 'LT',
+                                            showClose: true
+                                        });
+
+                                        $('.datetimepicker2').datetimepicker({
+                                            inline: true,
+                                            sideBySide: true
+                                        });
+
+                                        $('.datetimepicker3').datetimepicker();
+
+                                    });
+
+                                    $(function() {
+                                        // .daterange1
+                                        $(".daterange1").daterangepicker({
+                                            "buttonClasses": "button button-rounded button-mini nomargin",
+                                            "applyClass": "button-color",
+                                            "cancelClass": "button-light"
+                                        });
+
+                                        // .daterange2
+                                        $(".daterange2").daterangepicker({
+                                            "opens": "center",
+                                            timePicker: true,
+                                            timePickerIncrement: 30,
+                                            locale: {
+                                                format: 'MM/DD/YYYY h:mm A'
+                                            },
+                                            "buttonClasses": "button button-rounded button-mini nomargin",
+                                            "applyClass": "button-color",
+                                            "cancelClass": "button-light"
+                                        });
+
+                                        // .daterange3
+                                        $(".daterange3").daterangepicker({
+                                                singleDatePicker: true,
+                                                showDropdowns: true
+                                            },
+                                            function(start, end, label) {
+                                                var years = moment().diff(start, 'years');
+                                                alert("You are " + years + " years old.");
+                                            });
+
+                                        // reportrange
+                                        function cb(start, end) {
+                                            $(".reportrange span").html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+                                        }
+                                        cb(moment().subtract(29, 'days'), moment());
+
+                                        $(".reportrange").daterangepicker({
+                                            "buttonClasses": "button button-rounded button-mini nomargin",
+                                            "applyClass": "button-color",
+                                            "cancelClass": "button-light",
+                                            ranges: {
+                                                'Today': [moment(), moment()],
+                                                'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                                                'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+                                                'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                                                'This Month': [moment().startOf('month'), moment().endOf('month')],
+                                                'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+                                            }
+                                        }, cb);
+
+                                        // .daterange4
+                                        $(".daterange4").daterangepicker({
+                                            autoUpdateInput: false,
+                                            locale: {
+                                                cancelLabel: 'Clear'
+                                            },
+                                            "buttonClasses": "button button-rounded button-mini nomargin",
+                                            "applyClass": "button-color",
+                                            "cancelClass": "button-light"
+                                        });
+
+                                        $(".daterange4").on('apply.daterangepicker', function(ev, picker) {
+                                            $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+                                        });
+
+                                        $(".daterange4").on('cancel.daterangepicker', function(ev, picker) {
+                                            $(this).val('');
+                                        });
+
+                                    });
+
+                                </script>
+                                <div class="uk-width-1-1 uk-flex uk-flex-right">
+                                    <a href="#" uk-switcher-item="next" class="uk-button uk-button-primary btn-send-contact">tiếp theo</a>
+                                </div>
+                            </li>
+                            <li>
+                                <ul class="block_steps uk-grid-collapse uk-grid uk-flex uk-flex-middle uk-flex-around uk-child-width-1-3 uk-margin-medium-top uk-margin-large-bottom">
+                                    <li>
+                                        <div class="box_step uk-text-center uk-position-relative uk-position-z-index">
+                                            <i class="fa fa-3x fa-info-circle" aria-hidden="true"></i>
+                                            <span class="uk-position-bottom uk-text-truncate uk-visible@s">Nhập dữ liệu</span>
+                                        </div>
+                                    </li>
+                                    <li class="uk-active">
+                                        <div class="box_step uk-text-center uk-position-relative uk-position-z-index">
+                                            <i class="fa fa-3x fa-picture-o" aria-hidden="true"></i>
+                                            <span class="uk-position-bottom uk-text-truncate uk-visible@s">Thêm hình đính kèm</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box_step uk-text-center uk-position-relative uk-position-z-index">
+                                            <i class="fa fa-3x fa-check-circle-o" aria-hidden="true"></i>
+                                            <span class="uk-position-bottom uk-text-truncate uk-visible@s">Xác nhận đăng ký</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="uk-grid-small uk-form-stacked uk-margin form1" uk-grid>
+                                    <div class="uk-width-1-1">
+                                        <div class="uk-form-label" for="form-stacked-text">Hình chụp các giấy tờ liên quan</div>
+                                        <div hidden class="uk-card card7 uk-card-body uk-padding-small">
+                                            <div class="js-upload uk-placeholder uk-text-center uk-height-small uk-flex uk-flex-middle uk-flex-center">
+                                                <div>
+                                                    <span uk-icon="icon: cloud-upload"></span>
+                                                    <span class="uk-text-middle">Kéo và thả file vào đây hoặc</span>
+                                                    <div uk-form-custom>
+                                                        <input type="file" multiple>
+                                                        <span class="uk-link">Chọn file...</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <input id="input-3" name="input2[]" type="file" class="file" multiple data-show-upload="false" data-show-caption="true" data-show-preview="true">
+
+                                        <progress id="js-progressbar" class="uk-progress" value="0" max="100" hidden></progress>
+
+                                        <script >
+                                            $(document).ready(function() {
+                                                $("#input-5").fileinput({showCaption: false});
+
+                                                $("#input-6").fileinput({
+                                                    showUpload: false,
+                                                    maxFileCount: 10,
+                                                    mainClass: "input-group-lg",
+                                                    showCaption: true
+                                                });
+
+                                                $("#input-8").fileinput({
+                                                    mainClass: "input-group-md",
+                                                    showUpload: true,
+                                                    previewFileType: "image",
+                                                    browseClass: "btn btn-success",
+                                                    browseLabel: "Pick Image",
+                                                    browseIcon: "<i class=\"icon-picture\"></i> ",
+                                                    removeClass: "btn btn-danger",
+                                                    removeLabel: "Delete",
+                                                    removeIcon: "<i class=\"icon-trash\"></i> ",
+                                                    uploadClass: "btn btn-info",
+                                                    uploadLabel: "Upload",
+                                                    uploadIcon: "<i class=\"icon-upload\"></i> "
+                                                });
+
+                                                $("#input-9").fileinput({
+                                                    previewFileType: "text",
+                                                    allowedFileExtensions: ["txt", "md", "ini", "text"],
+                                                    previewClass: "bg-warning",
+                                                    browseClass: "btn btn-primary",
+                                                    removeClass: "btn btn-secondary",
+                                                    uploadClass: "btn btn-secondary",
+                                                });
+
+                                                $("#input-10").fileinput({
+                                                    showUpload: false,
+                                                    layoutTemplates: {
+                                                        main1: "{preview}\n" +
+                                                            "<div class=\'input-group {class}\'>\n" +
+                                                            "   <div class=\'input-group-append\'>\n" +
+                                                            "       {browse}\n" +
+                                                            "       {upload}\n" +
+                                                            "       {remove}\n" +
+                                                            "   </div>\n" +
+                                                            "   {caption}\n" +
+                                                            "</div>"
+                                                    }
+                                                });
+
+                                                $("#input-11").fileinput({
+                                                    maxFileCount: 10,
+                                                    allowedFileTypes: ["image", "video"]
+                                                });
+
+                                                $("#input-12").fileinput({
+                                                    showPreview: false,
+                                                    allowedFileExtensions: ["zip", "rar", "gz", "tgz"],
+                                                    elErrorContainer: "#errorBlock"
+                                                });
+                                            });
+
+                                        </script>
+
+
+                                        <script>
+
+                                            var bar = document.getElementById('js-progressbar');
+
+                                            UIkit.upload('.js-upload', {
+
+                                                url: '',
+                                                multiple: true,
+
+                                                beforeSend: function () {
+                                                    console.log('beforeSend', arguments);
+                                                },
+                                                beforeAll: function () {
+                                                    console.log('beforeAll', arguments);
+                                                },
+                                                load: function () {
+                                                    console.log('load', arguments);
+                                                },
+                                                error: function () {
+                                                    console.log('error', arguments);
+                                                },
+                                                complete: function () {
+                                                    console.log('complete', arguments);
+                                                },
+
+                                                loadStart: function (e) {
+                                                    console.log('loadStart', arguments);
+
+                                                    bar.removeAttribute('hidden');
+                                                    bar.max = e.total;
+                                                    bar.value = e.loaded;
+                                                },
+
+                                                progress: function (e) {
+                                                    console.log('progress', arguments);
+
+                                                    bar.max = e.total;
+                                                    bar.value = e.loaded;
+                                                },
+
+                                                loadEnd: function (e) {
+                                                    console.log('loadEnd', arguments);
+
+                                                    bar.max = e.total;
+                                                    bar.value = e.loaded;
+                                                },
+
+                                                completeAll: function () {
+                                                    console.log('completeAll', arguments);
+
+                                                    setTimeout(function () {
+                                                        bar.setAttribute('hidden', 'hidden');
+                                                    }, 1000);
+
+                                                    alert('Upload Completed');
+                                                }
+
+                                            });
+
+                                        </script>
+                                    </div>
+                                </div>
+                                <div hidden class="uk-grid-small uk-grid-collapse uk-grid uk-margin" uk-grid="">
+                                    <div class="uk-width-expand">
+                                        <input class="uk-input" type="text" placeholder="Chọn tập tin">
+                                    </div>
+                                    <div class="uk-width-auto">
+                                        <button type="submit" class="uk-button uk-button-default">tìm kiếm</button>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-flex-between">
+                                    <a href="#" uk-switcher-item="previous" class="uk-button uk-button-primary btn-send-contact">trở về trước</a>
+                                    <a href="#" uk-switcher-item="next" class="uk-button uk-button-primary btn-send-contact">tiếp theo</a>
+                                </div>
+                            </li>
+                            <li>
+                                <ul class="block_steps uk-grid-collapse uk-grid uk-flex uk-flex-middle uk-flex-around uk-child-width-1-3 uk-margin-medium-top uk-margin-large-bottom">
+                                    <li>
+                                        <div class="box_step uk-text-center uk-position-relative uk-position-z-index">
+                                            <i class="fa fa-3x fa-info-circle" aria-hidden="true"></i>
+                                            <span class="uk-position-bottom uk-text-truncate uk-visible@s">Nhập dữ liệu</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box_step uk-text-center uk-position-relative uk-position-z-index">
+                                            <i class="fa fa-3x fa-picture-o" aria-hidden="true"></i>
+                                            <span class="uk-position-bottom uk-text-truncate uk-visible@s">Thêm hình đính kèm</span>
+                                        </div>
+                                    </li>
+                                    <li class="uk-active">
+                                        <div class="box_step uk-text-center uk-position-relative uk-position-z-index">
+                                            <i class="fa fa-3x fa-check-circle-o" aria-hidden="true"></i>
+                                            <span class="uk-position-bottom uk-text-truncate uk-visible@s">Xác nhận đăng ký</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="uk-grid-small uk-form-stacked uk-margin form1" uk-grid>
+                                    <div class="uk-width-1-1">
+                                        <div class="g-recaptcha" data-sitekey="6LdpbZIUAAAAAGYFTJf9pzUifgrHM4F9B6RoDbcT"></div>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-flex-between">
+                                    <a href="#" uk-switcher-item="previous" class="uk-button uk-button-primary btn-send-contact">trở về trước</a>
+                                    <a href="thongbao.html" class="uk-button uk-button-primary btn-send-contact">tiếp theo</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="uk-width-1-3@m uk-flex-first@m">
+                    <div class="uk-card uk-card-default card6">
+                        <div class="uk-card-header uk-card-primary uk-text-uppercase uk-padding-small">thể loại</div>
+                        <div class="uk-padding-small uk-padding-remove-bottom uk-padding-remove-top">
+                            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                                <li class="uk-parent uk-open">
+                                    <a href="#">Dịch vụ cấp điện mới</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="capdienhaap1.html">Cấp điện từ lưới hạ áp</a></li>
+                                        <li><a href="capdientrungap1.html">Cấp điện từ lưới trung áp</a></li>
+                                        <li><a href="capdiencaoap1.html">Cấp điện từ lưới cao áp</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent">
+                                    <a href="#">Dịch vụ trong quá trình thực hiện hợp đồng mua bán điện</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="thaydoicongsuatsudungdien.html">Thay đổi công suất sử dụng điện hoặc thay đổi công tơ</a></li>
+                                        <li><a href="thaydoivitrithietbidodem.html">Thay đổi vị trí thiết bị đo đếm</a></li>
+                                        <li><a href="thaydoimucdichsudungdien.html">Thay đổi mục đích sử dụng điện</a></li>
+                                        <li><a href="thaydoidinhmucsudungdien.html">Thay đổi định mức sử dụng điện</a></li>
+                                        <li><a href="thaydoihopdongmuabandien.html">Thay đổi hợp đồng mua bán điện</a></li>
+                                        <li><a href="kiemtracongtothietbidodemkhac.html">Kiểm tra công tơ, thiết bị đo đềm khác</a></li>
+                                        <li><a href="capdientrolaikhikhachhangdatamngungsudungdien.html">Cấp điện trở lại khi khách hàng đã tạm ngưng sử dụng điện</a></li>
+                                        <li><a href="thaydoithongtindadangky.html">Thay đổi thông tin đã đăng ký</a></li>
+                                        <li><a href="thaydoihinhthucthanhtoandien.html">Thay đổi hình thức thanh toán điện</a></li>
+                                        <li><a href="xulymatdien.html">Xử lý mất điện</a></li>
+                                        <li><a href="giahanhopdongmuabandien.html">Gia hạn hợp đồng mua bán điện</a></li>
+                                        <li><a href="chamduthopdongmuabandien.html">Chấm dứt hợp đồng mua bán điện</a></li>
+                                        <li><a href="thanhtoantructuyen.html">Thanh toán trực tuyến</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent">
+                                    <a href="#">Các dịch vụ hỗ trợ</a>
+                                    <ul class="uk-nav-sub">
+                                        <li><a href="tuvansudungdichvudien.html">Tư vấn sử dụng dịch vụ điện</a></li>
+                                        <li><a href="tuvanvecongtrinhdien.html">Tư vấn về công trình điện</a></li>
+                                        <li><a href="giaidapkiennghikhachhang.html">Giải đáp kiến nghị khách hàng</a></li>
+                                        <li><a href="hoantratienthu2lan.html">Hoàn trả tiền thu 2 lần</a></li>
+                                        <li><a href="#">Kiến nghị hóa đơn</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>            </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block3 bg-white">
+        <div class="uk-container">
+            <div class="uk-flex-middle uk-flex-between" uk-grid>
+                <div class="uk-width-auto@m">
+                    <figure class="logo_f">
+                        <a href="#"><img src="imgs/logo-04.svg" alt=""></a>
+                    </figure>
+                </div>
+                <div class="uk-width-3-5@m">
+                    <form class="uk-grid-small uk-grid-collapse box_register uk-grid" uk-grid="">
+                        <div class="uk-width-expand uk-first-column">
+                            <input class="uk-input" type="email" placeholder="Nhập email để nhận thông báo từ Trung tâm CSKH EVNSPC">
+                        </div>
+                        <div class="uk-width-auto">
+                            <button type="submit" class="uk-button uk-button-primary">đăng ký</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer-uk" class="uk-text-white">
+        <div class="uk-section-small">
+            <div class="uk-container">
+                <div class="uk-child-width-1-3@m uk-flex-between" uk-grid>
+                    <div>
+                        <address>
+                            Chi nhánh Tổng Công ty Điện lực miền Nam <br>
+                            TNHH  Trung Tâm Chăm sóc khách hàng <br>
+                            MST/ĐKKD/QĐTL: 0300942001-041
+                        </address>
+                        <a href="#"><img src="imgs/bct.png" alt=""></a>
+                    </div>
+                    <div>
+                        <address>
+                            <ul class="uk-list list1">
+                                <li>
+                                    <span>Địa chỉ:</span>
+                                    số 12 Thi Sách, phường Bến Nghé,
+                                    quận 1, thành phố Hồ Chí Minh
+                                </li>
+                                <li>
+                                    <span>Hotline:</span>
+                                    19001006-19009000
+                                </li>
+                                <li>
+                                    <span>Fax:</span>
+                                    028.35218900
+                                </li>
+                                <li>
+                                    <span>Email:</span>
+                                    cskh@evnspc.vn
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="uk-width-auto">
+                        <ul class="uk-list uk-column-1-2 list2">
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Giới thiệu</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Thông tin hỗ trợ</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Dịch vụ trực tuyến</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Tra cứu</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Tin tức</a>
+                            </li>
+                            <li class="uk-position-relative">
+                                <i class="fa fa-angle-right uk-position-center-left" aria-hidden="true"></i>
+                                <a href="#">Liên hệ</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="uk-container">© 2018 EVNSPC CSKH. ALL RIGHTS RESERVED.</div>
+        </div>
+    </footer>
+    <div class="back-to-top">
+        <a href="javascript:void(0);">Top</a>
+    </div>
+</section>
+<script data-prepros-origin-host="localhost" src="http://localhost:7925/__prepros-server__/prepros.js"> </script>
+</body>
+</html>

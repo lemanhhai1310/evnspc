@@ -1,0 +1,171 @@
+.block1{
+  .uk-grid-small{
+    div{
+      &:nth-child(1){
+        .card1{
+          &:hover{
+            .icon{
+              background-image: url("../imgs/icon/icon-1.svg") !important;
+            }
+          }
+        }
+      }
+      &:nth-child(2){
+        .card1{
+          &:hover{
+            .icon{
+              background-image: url("../imgs/icon/icon-2.svg") !important;
+            }
+          }
+        }
+      }
+      &:nth-child(3){
+        .card1{
+          &:hover{
+            .icon{
+              background-image: url("../imgs/icon/icon-3.svg") !important;
+            }
+          }
+        }
+      }
+      &:nth-child(4){
+        .card1{
+          &:hover{
+            .icon{
+              background-image: url("../imgs/icon/icon-4.svg") !important;
+            }
+          }
+        }
+      }
+      &:nth-child(5){
+        .card1{
+          &:hover{
+            .icon{
+              background-image: url("../imgs/icon/icon-5.svg") !important;
+            }
+          }
+        }
+      }
+      &:nth-child(6){
+        .card1{
+          &:hover{
+            .icon{
+              background-image: url("../imgs/icon/icon-6.svg") !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//=====================================
+.box_2{
+  .title{
+    font-family: 'San Francisco Display Bold';
+    color: #17479B;
+    margin: 0;
+    font-size: 26px;
+  }
+}
+//=====================================
+.box_1{
+  @media(min-width: 991px){
+    padding-top: 50px;
+  }
+  .title{
+    font-family: 'San Francisco Display Bold';
+    color: #17479B;
+    font-size: 26px;
+  }
+  .desc{
+    font-family:'San Francisco Display Light';
+  }
+}
+//=====================================
+.card1{
+  padding: 30px;
+  &:hover{
+    background-color: #17479B !important;
+    color: #ffffff;
+    .desc{
+      color: #ffffff;
+    }
+    .uk-card-title{
+      color: #ffffff;
+    }
+  }
+  @media(min-width: 991px){
+    //padding-right: 72px;
+  }
+  border-radius: 6px;
+  height: 100%;
+  text-decoration: none;
+  &.uk-active{
+    background-color: #17479B !important;
+    color: #ffffff;
+    .desc{
+      color: #ffffff;
+    }
+    .uk-card-title{
+      color: #ffffff;
+    }
+  }
+  .uk-card-title{
+    font-size: 18px;
+    color: #17479B;
+    font-family:'San Francisco Display Regular';
+    margin-bottom: 15px;
+  }
+  .desc{
+    font-family:'San Francisco Display Light';
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #58595B;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 4; /* số dòng cần cắt ở đây */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 84px;
+    height: 84px;
+  }
+  img{
+    width: 50px;
+    height: 50px;
+    display: none;
+  }
+  .icon{
+    width: 50px;
+    height: 50px;
+  }
+}
+//=====================================
+.img1{
+  transform: scale(0.7,0.7);
+}
+//=====================================
+.block2{
+  border-top: 1px solid rgba(88, 89, 91, 0.14);
+  border-bottom: 1px solid rgba(88, 89, 91, 0.14);
+}
+//=====================================
+.box_banner{
+  .title{
+    color: #0E1B9C;
+    font-family:'San Francisco Display Bold';
+    span{
+      color: #0E1B9C !important;
+    }
+  }
+}
+//=====================================
+.uk-alert{
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  .uk-close{
+    padding: 15px;
+    top: 0;
+    right: 0;
+  }
+}

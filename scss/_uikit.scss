@@ -1,0 +1,34 @@
+@media(min-width: 960px){
+  .uk-grid-medium\@m{
+    margin-left: -30px !important;
+    >*{
+      padding-left: 30px !important;
+    }
+  }
+}
+@media(min-width: 1200px){
+  .uk-child-width-1-10\@l{
+    >*{
+      width: 10%;
+    }
+  }
+}
+//=====================================
+.uk-height-min-large{
+  min-height: 450px;
+}
+//=====================================
+.uk-text-white{
+  color: #ffffff !important;
+}
+//=====================================
+.bg-white{
+  background-color: #fff !important;
+}
+.bg-transparent{
+  background-color: transparent !important;
+}
+//=====================================
+.border-0{
+  border: none !important;
+}

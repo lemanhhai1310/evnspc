@@ -1,0 +1,135 @@
+.box_step{
+  padding: 0 8px;
+  background-color: #fff;
+  i.fa{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.fa-info-circle{
+      &:before{
+        content: '';
+        display: inline-block;
+        width: 42px;
+        height: 42px;
+        background-image: url("../imgs/icon-thong-tin/icon-nhapdulieu-gray.svg");
+      }
+    }
+    &.fa-picture-o{
+      &:before{
+        content: '';
+        display: inline-block;
+        width: 42px;
+        height: 31px;
+        background-size: contain;
+        background-position: center;
+        background-image: url("../imgs/icon-thong-tin/icon-hinhanhdinhkem-gray.svg");
+      }
+    }
+    &.fa-check-circle-o{
+      &:before{
+        content: '';
+        display: inline-block;
+        width: 32px;
+        height: 42px;
+        background-size: contain;
+        background-position: center;
+        background-image: url("../imgs/icon-thong-tin/icon-xacnhan-gray.svg");
+      }
+    }
+  }
+  span{
+    min-width: 130px;
+    top: 100%;
+    left: calc((100% - 130px)/2);
+    bottom: inherit;
+    font-family:'San Francisco Display Light';
+    color: #000 !important;
+  }
+}
+.block_steps{
+  li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    &.uk-active{
+      color: #17479B !important;
+      span{
+        color: #17479B !important;
+      }
+      i.fa{
+        &.fa-info-circle{
+          &:before{
+            content: '';
+            display: inline-block;
+            width: 42px;
+            height: 42px;
+            background-image: url("../imgs/icon-thong-tin/icon-nhapdulieu.svg");
+          }
+        }
+        &.fa-picture-o{
+          &:before{
+            content: '';
+            display: inline-block;
+            width: 42px;
+            height: 31px;
+            background-size: contain;
+            background-position: center;
+            background-image: url("../imgs/icon-thong-tin/icon-hinhanhdinhkem.svg");
+          }
+        }
+        &.fa-check-circle-o{
+          &:before{
+            content: '';
+            display: inline-block;
+            width: 32px;
+            height: 42px;
+            background-size: contain;
+            background-position: center;
+            background-image: url("../imgs/icon-thong-tin/icon-xacnhan.svg");
+          }
+        }
+      }
+    }
+    &:not(:last-child){
+      .box_step{
+        &:before{
+          content: "\f111";
+          position: absolute;
+          top: calc((100% - 7px)/2);
+
+          left: 100%;
+          color: #17479B;
+          padding: 0 0px;
+          background-color: #fff;
+          font: normal normal normal 7px/1 FontAwesome;
+        }
+      }
+    }
+    &:nth-child(n+2){
+      &:not(.uk-first-column){
+        &:before{
+          content: "";
+          width: 100%;
+          position: absolute;
+          right: 50%;
+          top: 50%;
+          border-top: 1px dashed #17479B;
+        }
+        .box_step{
+          &:after{
+            content: "\f0da";
+            position: absolute;
+            top: calc((100% - 14px)/2);
+            right: 100%;
+            color: #17479B;
+            padding: 0 0px;
+            background-color: #fff;
+            font: normal normal normal 14px/1 FontAwesome;
+          }
+        }
+      }
+    }
+  }
+}

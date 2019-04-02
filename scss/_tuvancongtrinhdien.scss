@@ -1,0 +1,10 @@
+.tuvancongtrinhdien{
+  >li{
+    >a{
+      font-size: 14px;
+      &:before{
+        opacity: 0;
+      }
+    }
+  }
+}

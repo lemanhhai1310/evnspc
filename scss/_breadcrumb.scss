@@ -1,0 +1,18 @@
+.uk-breadcrumb{
+  li{
+    a,span{
+      color: #FFFFFF !important;
+      font-family:'San Francisco Display Light';
+    }
+  }
+  >li{
+    &:nth-child(n+2){
+      &:not(.uk-first-column){
+        &:before{
+          margin: 0 10px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
