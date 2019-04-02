@@ -36,7 +36,8 @@ if(isset($_POST['submit'])){
             <div class="uk-width-2-5@s">
                 <form class="form_acc">
                     <div class="uk-margin">
-
+                        <h3 class="title_forgot_pass uk-text-uppercase">lấy lại mật khẩu</h3>
+                        <p>Quý khách vui lòng điền tên đăng nhập vào hình thức lấy lại mật khẩu</p>
                     </div>
                     <div class="uk-margin-small">
                         <div class="uk-position-relative">

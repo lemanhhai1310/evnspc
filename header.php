@@ -21,6 +21,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/forgot_pass.css">
     <!--JS-->
     <script src="assets/jquery/jquery-3.3.1.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
