@@ -8,6 +8,8 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.theme.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
@@ -26,6 +28,7 @@
     <script src="assets/jquery/jquery-3.3.1.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
+    <script src="assets/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!--Charts JS-->
     <script src="js/chart.js"></script>
@@ -43,6 +46,20 @@
     <script src="js/components/bs-filestyle.js"></script>
 
     <script src="js/functions.js"></script>
+    <script>
+        $( function() {
+            var availableTags = [
+                "Python",
+                "Ruby",
+                "Scala",
+                "Scheme",
+                "Tra cứu tiền điện",
+            ];
+            $( "#tags" ).autocomplete({
+                source: availableTags
+            });
+        } );
+    </script>
 </head>
 <body>
 <section id="root" class="uk-height-viewport uk-offcanvas-content">
@@ -170,7 +187,7 @@
                                         </form>
                                         <form action="ketquatimkiem.html" class="uk-search uk-search-default uk-width-1-1">
                                             <span uk-search-icon></span>
-                                            <input class="uk-search-input border-0" type="search" placeholder="Tìm kiếm">
+                                            <input id="tags" class="uk-search-input border-0" type="search" placeholder="Tìm kiếm">
                                         </form>
                                     </div>
                                 </div>
