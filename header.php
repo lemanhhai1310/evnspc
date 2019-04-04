@@ -45,6 +45,7 @@
     <!-- Bootstrap File Upload Plugin -->
     <script src="js/components/bs-filestyle.js"></script>
 
+    <script src="js/jquery.buttonLoader.js"></script>
     <script src="js/functions.js"></script>
     <script>
         $( function() {

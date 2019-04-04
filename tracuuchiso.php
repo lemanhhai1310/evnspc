@@ -37,16 +37,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <button type="button" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing Order" class="btn2 uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
-                                                <script>
-                                                    $('.btn2').on('click', function() {
-                                                        var $this = $(this);
-                                                        $this.button('loading');
-                                                        setTimeout(function() {
-                                                            $this.button('reset');
-                                                        }, 8000);
-                                                    });
-                                                </script>
+                                                <button type="button" class="btn2 uk-button uk-button-primary btn-send-contact has-spinner">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -120,7 +111,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
+                                                <button type="button" class="uk-button uk-button-primary btn-send-contact has-spinner">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -234,7 +225,7 @@
                                 </div>
                             </div>
                             <div class="uk-width-1-1 uk-flex uk-flex-right uk-margin">
-                                <a href="#" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></a>
+                                <a href="#" class="uk-button uk-button-primary btn-send-contact has-spinner">tra cứu <i class="fa fa-search" aria-hidden="true"></i></a>
                             </div>
                             <div class="uk-overflow-auto">
                                 <table class="uk-table uk-table-small uk-table-middle uk-table-divider table2">
@@ -328,7 +319,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
+                                                <button type="button" class="uk-button uk-button-primary btn-send-contact has-spinner">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -762,7 +753,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
+                                                <button type="button" class="uk-button uk-button-primary btn-send-contact has-spinner">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -1150,6 +1141,18 @@
         //     }
         // };
         // window.myBar2 = new Chart(ctx2, config2);
+    });
+</script>
+<script>
+    $(document).ready(function () {
+
+        $('.has-spinner').click(function () {
+            var btn = $(this);
+            $(btn).buttonLoader('start');
+            setTimeout(function () {
+                $(btn).buttonLoader('stop');
+            }, 3000);
+        });
     });
 </script>
 <?php include('footer.php'); ?>
