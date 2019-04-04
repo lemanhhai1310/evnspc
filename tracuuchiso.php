@@ -37,7 +37,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu</button>
+                                                <button type="button" onclick="randomScalingFactor()" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -111,7 +111,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu</button>
+                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -225,7 +225,7 @@
                                 </div>
                             </div>
                             <div class="uk-width-1-1 uk-flex uk-flex-right uk-margin">
-                                <a href="#" class="uk-button uk-button-primary btn-send-contact">tra cứu</a>
+                                <a href="#" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></a>
                             </div>
                             <div class="uk-overflow-auto">
                                 <table class="uk-table uk-table-small uk-table-middle uk-table-divider table2">
@@ -319,7 +319,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu</button>
+                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -753,7 +753,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu</button>
+                                                <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                             </div>
                                         </div>
                                     </div>
