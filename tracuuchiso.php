@@ -37,7 +37,16 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <button type="button" onclick="randomScalingFactor()" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
+                                                <button type="button" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing Order" class="btn2 uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
+                                                <script>
+                                                    $('.btn2').on('click', function() {
+                                                        var $this = $(this);
+                                                        $this.button('loading');
+                                                        setTimeout(function() {
+                                                            $this.button('reset');
+                                                        }, 8000);
+                                                    });
+                                                </script>
                                             </div>
                                         </div>
                                     </div>

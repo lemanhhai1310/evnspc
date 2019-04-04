@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae0b0211-0f8f-4a31-ab1a-c6027dd42ab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Angiang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/BRVT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Baclieu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Bentre.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Binhduong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Binhphuoc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Binhthuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Camau.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Cantho.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Dongnai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Dongthap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Haugiang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Kiengiang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Lamdong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Longan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Ninhthuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Soctrang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Tayninh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Tiengiang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Travinh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Vinhlong.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/forgot_pass.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forgot_pass.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/forgot_pass.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/forgot_pass.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/forgot_pass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/forgot_pass.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracuuchiso.html" beforeDir="false" afterPath="$PROJECT_DIR$/tracuuchiso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracuuchiso.php" beforeDir="false" afterPath="$PROJECT_DIR$/tracuuchiso.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,22 +28,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="644">
-                  <caret line="573" column="7" selection-start-line="573" selection-start-column="7" selection-end-line="573" selection-end-column="7" />
-                  <folding>
-                    <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="479">
+                  <caret line="562" column="18" lean-forward="true" selection-start-line="562" selection-start-column="18" selection-end-line="562" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -69,8 +40,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tracuuchiso.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+                <state relative-caret-position="142">
+                  <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -102,8 +73,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/quenmatkhau.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6330">
-                  <caret line="422" column="26" selection-start-line="422" selection-start-column="26" selection-end-line="422" selection-end-column="26" />
+                <state relative-caret-position="326">
+                  <caret line="417" column="32" lean-forward="true" selection-start-line="417" selection-start-column="32" selection-end-line="417" selection-end-column="32" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -115,11 +86,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../html.enlio/index.php">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tracuuchiso.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="388">
-                  <caret line="26" column="62" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="26" selection-end-column="62" />
+                <state relative-caret-position="644">
+                  <caret line="1539" column="7" selection-start-line="1539" selection-start-column="7" selection-end-line="1539" selection-end-column="7" />
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#iframe#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#h3#1;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -164,11 +144,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="117">
-                  <caret line="104" column="19" lean-forward="true" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+                <state relative-caret-position="177">
+                  <caret line="108" column="19" lean-forward="true" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -182,11 +162,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/forgot_pass.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
@@ -301,7 +281,6 @@
         <option value="$PROJECT_DIR$/tintuc.html" />
         <option value="$PROJECT_DIR$/tintuc_detail.html" />
         <option value="$PROJECT_DIR$/tracuu.html" />
-        <option value="$PROJECT_DIR$/tracuuchiso.html" />
         <option value="$PROJECT_DIR$/tracuutiendien.html" />
         <option value="$PROJECT_DIR$/tuvansudungdichvudien.html" />
         <option value="$PROJECT_DIR$/tuvanvecongtrinhdien.html" />
@@ -312,11 +291,12 @@
         <option value="$PROJECT_DIR$/scss/_header.scss" />
         <option value="$PROJECT_DIR$/quenmatkhau.php" />
         <option value="$PROJECT_DIR$/quenmatkhau.html" />
-        <option value="$PROJECT_DIR$/scss/forgot_pass.scss" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/tracuuchiso.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tracuuchiso.php" />
+        <option value="$PROJECT_DIR$/scss/forgot_pass.scss" />
+        <option value="$PROJECT_DIR$/tracuuchiso.html" />
       </list>
     </option>
   </component>
@@ -436,7 +416,7 @@
       <workItem from="1554179466582" duration="1694000" />
       <workItem from="1554182343611" duration="1479000" />
       <workItem from="1554358159848" duration="3440000" />
-      <workItem from="1554365883966" duration="3205000" />
+      <workItem from="1554365883966" duration="4439000" />
     </task>
     <task id="LOCAL-00001" summary="update phần tra cứu sugguest">
       <created>1554359767975</created>
@@ -459,11 +439,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554366892043</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update 21 logo trang chủ">
+      <created>1554370084803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554370084803</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update icon search sau từ tra cứu">
+      <created>1554370314580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554370314580</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155567000" />
+    <option name="totallyTimeSpent" value="156801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="6" />
@@ -537,7 +531,9 @@
     <MESSAGE value="update phần tra cứu sugguest" />
     <MESSAGE value="render index.html" />
     <MESSAGE value="thêm icon vào tra cứu" />
-    <option name="LAST_COMMIT_MESSAGE" value="thêm icon vào tra cứu" />
+    <MESSAGE value="update 21 logo trang chủ" />
+    <MESSAGE value="update icon search sau từ tra cứu" />
+    <option name="LAST_COMMIT_MESSAGE" value="update icon search sau từ tra cứu" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/thaydoicongsuatsudungdien.html">
@@ -798,22 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracuuchiso.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22695">
-          <caret line="1513" column="7" selection-start-line="1513" selection-start-column="7" selection-end-line="1513" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#1;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracuutiendien.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8055">
@@ -971,20 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quenmatkhau.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6330">
-          <caret line="422" column="26" selection-start-line="422" selection-start-column="26" selection-end-line="422" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -1034,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/forgot_pass.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1062,16 +1021,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracuuchiso.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#1;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="120" column="140" selection-start-line="120" selection-start-column="140" selection-end-line="120" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="562" column="18" lean-forward="true" selection-start-line="562" selection-start-column="18" selection-end-line="562" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1082,34 +1042,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/quenmatkhau.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="120" column="140" selection-start-line="120" selection-start-column="140" selection-end-line="120" selection-end-column="140" />
+        <state relative-caret-position="326">
+          <caret line="417" column="32" lean-forward="true" selection-start-line="417" selection-start-column="32" selection-end-line="417" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="104" column="19" lean-forward="true" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        <state relative-caret-position="177">
+          <caret line="108" column="19" lean-forward="true" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scss/forgot_pass.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracuuchiso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracuuchiso.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
-          <caret line="573" column="7" selection-start-line="573" selection-start-column="7" selection-end-line="573" selection-end-column="7" />
+          <caret line="1539" column="7" selection-start-line="1539" selection-start-column="7" selection-end-line="1539" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

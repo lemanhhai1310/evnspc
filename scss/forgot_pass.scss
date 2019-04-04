@@ -11,3 +11,14 @@
     margin-right: 0;
   }
 }
+.card6{
+  .uk-nav-default{
+    li{
+      &.uk-active{
+        a{
+          border-right: 4px solid #17479B;
+        }
+      }
+    }
+  }
+}
