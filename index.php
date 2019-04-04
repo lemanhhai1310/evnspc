@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="uk-width-expand@l">
-                <div uk-slider>
+                <div uk-slider="autoplay: true; autoplay-interval: 1000">
 
                     <div class="uk-position-relative">
 
