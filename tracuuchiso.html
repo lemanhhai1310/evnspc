@@ -9,6 +9,8 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.theme.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
@@ -22,10 +24,12 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/forgot_pass.css">
     <!--JS-->
     <script src="assets/jquery/jquery-3.3.1.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
+    <script src="assets/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!--Charts JS-->
     <script src="js/chart.js"></script>
@@ -43,6 +47,20 @@
     <script src="js/components/bs-filestyle.js"></script>
 
     <script src="js/functions.js"></script>
+    <script>
+        $( function() {
+            var availableTags = [
+                "Python",
+                "Ruby",
+                "Scala",
+                "Scheme",
+                "Tra cứu tiền điện",
+            ];
+            $( "#tags" ).autocomplete({
+                source: availableTags
+            });
+        } );
+    </script>
 </head>
 <body>
 <section id="root" class="uk-height-viewport uk-offcanvas-content">
@@ -181,17 +199,17 @@
                             <a href="tracuu.html">tra cứu</a>
                             <div class="uk-navbar-dropdown uk-margin-remove">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li><a href="tracuuchiso.html">Tra cứu chỉ số</a></li>
-                                    <li><a href="tracuutiendien.html">Tra cứu tiền điện</a></li>
-                                    <li><a href="hoadontiendien.html">Hóa đơn tiền điện</a></li>
-                                    <li><a href="thongtinnotiendien.html">Thông tin nợ tiền điện</a></li>
-                                    <li><a href="thongtinthanhtoantiendien.html">Thông tin thanh toán tiền điện</a></li>
-                                    <li><a href="lichngunggiamcungcapdien.html">Lịch ngừng giảm cung cấp điện</a></li>
-                                    <li><a href="lichghichiso.html">Lịch ghi chỉ số</a></li>
-                                    <li><a href="diemthutiendien.html">Điểm thu tiền điện</a></li>
-                                    <li><a href="thongtingiabandien.html">Thông tin giá bán điện</a></li>
+                                    <li><a href="tracuuchiso.php">Tra cứu chỉ số</a></li>
+                                    <li><a href="tracuuchiso.php#tiendien">Tra cứu tiền điện</a></li>
+                                    <li><a href="tracuuchiso.php">Hóa đơn tiền điện</a></li>
+                                    <li><a href="tracuuchiso.php">Thông tin nợ tiền điện</a></li>
+                                    <li><a href="tracuuchiso.php">Thông tin thanh toán tiền điện</a></li>
+                                    <li><a href="tracuuchiso.php">Lịch ngừng giảm cung cấp điện</a></li>
+                                    <li><a href="tracuuchiso.php">Lịch ghi chỉ số</a></li>
+                                    <li><a href="tracuuchiso.php">Điểm thu tiền điện</a></li>
+                                    <li><a href="tracuuchiso.php">Thông tin giá bán điện</a></li>
                                     <li><a href="#">Thông tin phụ tải theo ngày</a></li>
-                                    <li><a href="theodoitiendocapdien.html">Theo dõi tiến độ cấp điện</a></li>
+                                    <li><a href="tracuuchiso.php">Theo dõi tiến độ cấp điện</a></li>
                                     <li><a href="#">Theo dõi tiến độ các dịch vụ khác</a></li>
                                 </ul>
                             </div>
@@ -223,7 +241,7 @@
                                         </form>
                                         <form action="ketquatimkiem.html" class="uk-search uk-search-default uk-width-1-1">
                                             <span uk-search-icon></span>
-                                            <input class="uk-search-input border-0" type="search" placeholder="Tìm kiếm">
+                                            <input id="tags" class="uk-search-input border-0" type="search" placeholder="Tìm kiếm">
                                         </form>
                                     </div>
                                 </div>
@@ -287,7 +305,7 @@
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu</button>
+                                                    <button type="button" onclick="randomScalingFactor()" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -361,7 +379,7 @@
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu</button>
+                                                    <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -475,7 +493,7 @@
                                     </div>
                                 </div>
                                 <div class="uk-width-1-1 uk-flex uk-flex-right uk-margin">
-                                    <a href="#" class="uk-button uk-button-primary btn-send-contact">tra cứu</a>
+                                    <a href="#" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="uk-overflow-auto">
                                     <table class="uk-table uk-table-small uk-table-middle uk-table-divider table2">
@@ -569,7 +587,7 @@
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu</button>
+                                                    <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -1003,7 +1021,7 @@
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu</button>
+                                                    <button type="submit" class="uk-button uk-button-primary btn-send-contact">tra cứu <i class="fa fa-search" aria-hidden="true"></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -1509,6 +1527,5 @@
         <a href="javascript:void(0);">Top</a>
     </div>
 </section>
-<script data-prepros-origin-host="localhost" src="http://localhost:7925/__prepros-server__/prepros.js"> </script>
 </body>
 </html>
