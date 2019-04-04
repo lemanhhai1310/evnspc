@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae0b0211-0f8f-4a31-ab1a-c6027dd42ab7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Angiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/BRVT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Baclieu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Bentre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Binhduong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Binhphuoc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Binhthuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Camau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Cantho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Dongnai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Dongthap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Haugiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Kiengiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Lamdong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Longan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Ninhthuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Soctrang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Tayninh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Tiengiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Travinh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo 21PC png/Vinhlong.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracuuchiso.php" beforeDir="false" afterPath="$PROJECT_DIR$/tracuuchiso.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +46,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="507" column="33" lean-forward="true" selection-start-line="507" selection-start-column="33" selection-end-line="507" selection-end-column="33" />
+                <state relative-caret-position="644">
+                  <caret line="573" column="7" selection-start-line="573" selection-start-column="7" selection-end-line="573" selection-end-column="7" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,11 +66,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tracuuchiso.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+                <state relative-caret-position="204">
+                  <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -62,8 +84,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1710">
-                  <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
+                <state relative-caret-position="184">
+                  <caret line="120" column="140" selection-start-line="120" selection-start-column="140" selection-end-line="120" selection-end-column="140" />
                 </state>
               </provider>
             </entry>
@@ -89,6 +111,15 @@
                     <element signature="n#style#0;n#span#1;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../html.enlio/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="388">
+                  <caret line="26" column="62" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="26" selection-end-column="62" />
                 </state>
               </provider>
             </entry>
@@ -136,8 +167,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="106" column="21" lean-forward="true" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+                <state relative-caret-position="117">
+                  <caret line="104" column="19" lean-forward="true" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -282,10 +313,10 @@
         <option value="$PROJECT_DIR$/quenmatkhau.php" />
         <option value="$PROJECT_DIR$/quenmatkhau.html" />
         <option value="$PROJECT_DIR$/scss/forgot_pass.scss" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/tracuuchiso.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -316,7 +347,13 @@
             <path>
               <item name="html.evn" type="b2602c69:ProjectViewProjectNode" />
               <item name="html.evn" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html.evn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html.evn" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="logo 21PC png" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,7 +436,7 @@
       <workItem from="1554179466582" duration="1694000" />
       <workItem from="1554182343611" duration="1479000" />
       <workItem from="1554358159848" duration="3440000" />
-      <workItem from="1554365883966" duration="732000" />
+      <workItem from="1554365883966" duration="3205000" />
     </task>
     <task id="LOCAL-00001" summary="update phần tra cứu sugguest">
       <created>1554359767975</created>
@@ -415,14 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554364536300</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="thêm icon vào tra cứu">
+      <created>1554366892043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554366892043</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153094000" />
+    <option name="totallyTimeSpent" value="155567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19027181" />
@@ -492,21 +536,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update phần tra cứu sugguest" />
     <MESSAGE value="render index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="render index.html" />
+    <MESSAGE value="thêm icon vào tra cứu" />
+    <option name="LAST_COMMIT_MESSAGE" value="thêm icon vào tra cứu" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thanhtoantructuyen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="675" column="22" lean-forward="true" selection-start-line="675" selection-start-column="22" selection-end-line="675" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thaydoicongsuatsudungdien.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
@@ -931,13 +964,6 @@
     <entry file="file://$PROJECT_DIR$/imgs/ico5.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quenmatkhau.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1305">
@@ -1008,24 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="507" column="33" lean-forward="true" selection-start-line="507" selection-start-column="33" selection-end-line="507" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/forgot_pass.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1054,22 +1062,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="106" column="21" lean-forward="true" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracuuchiso.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state relative-caret-position="204">
+          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#1;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html.enlio/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="26" column="62" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="26" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="120" column="140" selection-start-line="120" selection-start-column="140" selection-end-line="120" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="104" column="19" lean-forward="true" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="573" column="7" selection-start-line="573" selection-start-column="7" selection-end-line="573" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

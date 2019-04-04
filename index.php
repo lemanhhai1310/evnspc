@@ -119,9 +119,34 @@
 
                         <div class="uk-slider-container uk-light">
                             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-3@m uk-grid-medium" uk-grid>
-                                <?php for ($j = 1; $j <= 8; $j++) { ?>
+                                <?php
+                                $cars = array
+                                (
+                                    'imgs/logo%2021PC%20png/Angiang.png',
+                                    'imgs/logo%2021PC%20png/Baclieu.png',
+                                    'imgs/logo%2021PC%20png/Bentre.png',
+                                    'imgs/logo%2021PC%20png/Binhduong.png',
+                                    'imgs/logo%2021PC%20png/Binhphuoc.png',
+                                    'imgs/logo%2021PC%20png/Binhthuan.png',
+                                    'imgs/logo%2021PC%20png/BRVT.png',
+                                    'imgs/logo%2021PC%20png/Camau.png',
+                                    'imgs/logo%2021PC%20png/Cantho.png',
+                                    'imgs/logo%2021PC%20png/Dongnai.png',
+                                    'imgs/logo%2021PC%20png/Dongthap.png',
+                                    'imgs/logo%2021PC%20png/Haugiang.png',
+                                    'imgs/logo%2021PC%20png/Kiengiang.png',
+                                    'imgs/logo%2021PC%20png/Lamdong.png',
+                                    'imgs/logo%2021PC%20png/Longan.png',
+                                    'imgs/logo%2021PC%20png/Ninhthuan.png',
+                                    'imgs/logo%2021PC%20png/Soctrang.png',
+                                    'imgs/logo%2021PC%20png/Tayninh.png',
+                                    'imgs/logo%2021PC%20png/Tiengiang.png',
+                                    'imgs/logo%2021PC%20png/Travinh.png',
+                                    'imgs/logo%2021PC%20png/Vinhlong.png',
+                                );
+                                foreach ($cars as $key => $value) { ?>
                                     <li class="uk-text-center">
-                                        <img class="img1" src="imgs/img<?php echo $j; ?>.png" alt="">
+                                        <img class="img1" src="<?php echo $value; ?>" alt="">
                                     </li>
                                 <?php } ?>
                             </ul>
