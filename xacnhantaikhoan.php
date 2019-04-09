@@ -45,14 +45,12 @@ if(isset($_POST['submit'])){
                             <input class="uk-input" type="text" placeholder="Tên đăng nhập">
                         </div>
                     </div>
-                    <div class="error1">* Tên đăng nhập không đúng</div>
                     <div class="uk-margin-small">
                         <div class="uk-position-relative">
                             <span class="uk-form-icon uk-icon" uk-icon=""><i class="fa fa-barcode" aria-hidden="true"></i></span>
                             <input class="uk-input" type="text" placeholder="Mã khách hàng">
                         </div>
                     </div>
-                    <div class="error1">* Mã khách hàng không đúng</div>
                     <div class="uk-margin-small">
                         <div class="uk-position-relative">
                             <span class="uk-form-icon uk-icon" uk-icon=""><img src="imgs/icon_xacnhantaikhoan/icon_phone.svg" alt=""></span>
@@ -65,6 +63,7 @@ if(isset($_POST['submit'])){
                             <input class="uk-input" type="text" placeholder="Mã OTP">
                         </div>
                     </div>
+                    <div class="error1">* Mã OTP không đúng</div>
                     <button class="uk-button uk-button-primary uk-width-1-1 btn-send-contact">xác nhận</button>
                     <div class="uk-margin uk-text-center">
                         <a href="account.html">Quay lại trang đăng nhập</a>
