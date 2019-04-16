@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae0b0211-0f8f-4a31-ab1a-c6027dd42ab7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/forgot_pass.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forgot_pass.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/forgot_pass.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/forgot_pass.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/forgot_pass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/forgot_pass.scss" afterDir="false" />
-    </list>
+    <list default="true" id="ae0b0211-0f8f-4a31-ab1a-c6027dd42ab7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +15,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
+                <state relative-caret-position="100">
+                  <caret line="79" column="56" lean-forward="true" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -450,7 +445,7 @@
       <workItem from="1554358159848" duration="3440000" />
       <workItem from="1554365883966" duration="6787000" />
       <workItem from="1554804350912" duration="1743000" />
-      <workItem from="1555403071424" duration="3954000" />
+      <workItem from="1555403071424" duration="4594000" />
     </task>
     <task id="LOCAL-00001" summary="update phần tra cứu sugguest">
       <created>1554359767975</created>
@@ -512,7 +507,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164846000" />
+    <option name="totallyTimeSpent" value="165486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
@@ -1131,8 +1126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
+        <state relative-caret-position="100">
+          <caret line="79" column="56" lean-forward="true" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
