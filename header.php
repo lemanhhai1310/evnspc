@@ -81,7 +81,8 @@
                         <div class="ui fluid search selection dropdown bg-transparent border-0 uk-text-white">
                             <input type="hidden" name="country">
                             <i class="dropdown icon"></i>
-                            <div class="default text uk-text-white">Select Country</div>
+                            <div class="default text uk-text-white"><img
+                                        src="imgs/flag/vietnam.svg" alt=""></div>
                             <div class="menu">
                                 <div style="white-space: nowrap" class="item" data-value="vn"><img
                                             src="imgs/flag/vietnam.svg" alt=""></div>

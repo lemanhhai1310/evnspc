@@ -41,6 +41,7 @@
     &.active{
       &.search{
         input.search{
+          display: none;
           &:focus{
             & + .text{
               color: #ffffff !important;
@@ -48,6 +49,9 @@
           }
         }
       }
+    }
+    input.search{
+      display: none;
     }
     .text{
       img{
