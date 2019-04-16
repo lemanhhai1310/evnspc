@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
     <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.min.css">
     <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="assets/Semantic-UI-master/dist/semantic.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
@@ -29,6 +30,7 @@
     <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
     <script src="assets/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="assets/Semantic-UI-master/dist/semantic.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!--Charts JS-->
     <script src="js/chart.js"></script>
@@ -76,16 +78,18 @@
                 </div>
                 <div>
                     <div class="uk-inline uk-visible@m">
-                        <div uk-form-custom="target: > * > span:first-child">
-                            <select>
-                                <option value="1">English</option>
-                                <option value="2">Vietnam</option>
-                            </select>
-                            <button class="uk-button" type="button" tabindex="-1">
-                                <span></span>
-                                <span uk-icon="icon: chevron-down"></span>
-                            </button>
+                        <div class="ui fluid search selection dropdown bg-transparent border-0 uk-text-white">
+                            <input type="hidden" name="country">
+                            <i class="dropdown icon"></i>
+                            <div class="default text uk-text-white">Select Country</div>
+                            <div class="menu">
+                                <div style="white-space: nowrap" class="item" data-value="vn"><i class="vn flag"></i>Việt Nam</div>
+                                <div style="white-space: nowrap" class="item" data-value="england"><i class="england flag"></i>English</div>
+                            </div>
                         </div>
+                        <script>
+                            $('.ui.dropdown').dropdown();
+                        </script>
                     </div>
                     <div class="social_h uk-inline uk-visible@m">
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>

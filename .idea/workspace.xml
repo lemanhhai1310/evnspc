@@ -2,11 +2,711 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae0b0211-0f8f-4a31-ab1a-c6027dd42ab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/flag/united-kingdom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/flag/vietnam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/.csscomb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/.csslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/RELEASE-NOTES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/accordion.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/accordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/ad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/ad.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/api.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/breadcrumb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/button.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/card.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/checkbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/checkbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/comment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/comment.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/container.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/dimmer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/dimmer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/dimmer.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/dimmer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/divider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/divider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/dropdown.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/dropdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/embed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/embed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/embed.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/embed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/feed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/feed.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/flag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/flag.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/form.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/header.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/icon.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/image.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/input.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/item.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/label.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/label.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/list.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/loader.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/menu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/message.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/modal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/modal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/nag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/nag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/nag.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/nag.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/placeholder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/placeholder.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/popup.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/progress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/progress.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/progress.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/rail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/rail.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/rating.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/rating.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/rating.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/reset.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/reveal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/reveal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/search.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/search.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/segment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/segment.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/shape.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/shape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/shape.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/shape.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/sidebar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/sidebar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/site.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/site.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/statistic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/statistic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/step.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/sticky.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/sticky.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/sticky.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/tab.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/tab.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/transition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/transition.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/transition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/video.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/visibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/components/visibility.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/semantic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/semantic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/semantic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/semantic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/basic/assets/fonts/icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/basic/assets/fonts/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/basic/assets/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/basic/assets/fonts/icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/brand-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/brand-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/brand-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/brand-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/brand-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/icons.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/outline-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/outline-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/outline-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/outline-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/fonts/outline-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/default/assets/images/flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/github/assets/fonts/octicons-local.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/github/assets/fonts/octicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/github/assets/fonts/octicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/github/assets/fonts/octicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/material/assets/fonts/icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/material/assets/fonts/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/material/assets/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/material/assets/fonts/icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/dist/themes/material/assets/fonts/icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/avatar/nan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/avatar/tom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/centered-paragraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/image-square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/image-text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/media-paragraph-alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/media-paragraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/paragraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/short-paragraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/square-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/text-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/images/wireframe/white-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/library/iframe-content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/library/iframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/library/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/assets/show-examples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/attached.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/components/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/components/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/components/input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/components/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/components/site.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/components/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/fixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/sticky.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/examples/theming.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/semantic.json.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/breadcrumb.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/breadcrumb.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/form.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/form.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/grid.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/grid.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/menu.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/menu.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/message.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/message.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/table.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/collections/table.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/container.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/container.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/divider.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/divider.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/flag.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/flag.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/header.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/header.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/icon.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/icon.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/image.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/image.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/input.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/input.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/label.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/label.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/list.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/list.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/loader.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/loader.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/rail.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/rail.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/reveal.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/reveal.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/segment.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/segment.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/step.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/elements/step.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/globals/reset.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/globals/reset.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/globals/site.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/globals/site.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/accordion.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/accordion.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/chatroom.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/chatroom.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/checkbox.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/checkbox.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/dimmer.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/dimmer.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/dropdown.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/dropdown.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/embed.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/embed.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/modal.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/modal.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/nag.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/nag.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/popup.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/popup.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/progress.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/progress.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/rating.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/rating.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/search.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/search.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/shape.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/shape.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/sidebar.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/sidebar.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/sticky.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/sticky.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/tab.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/tab.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/transition.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/modules/transition.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/ad.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/ad.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/card.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/card.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/comment.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/comment.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/feed.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/feed.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/item.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/item.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/statistic.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/_site/views/statistic.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/behaviors/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/behaviors/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/behaviors/visibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/collections/breadcrumb.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/collections/form.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/collections/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/collections/menu.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/collections/message.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/collections/table.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/button.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/container.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/divider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/flag.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/header.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/icon.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/image.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/input.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/label.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/loader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/placeholder.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/rail.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/reveal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/segment.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/elements/step.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/globals/reset.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/globals/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/globals/site.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/accordion.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/checkbox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/dimmer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/dimmer.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/dropdown.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/embed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/embed.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/modal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/nag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/nag.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/popup.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/progress.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/rating.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/search.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/shape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/shape.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/sidebar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/sticky.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/tab.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/modules/transition.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/views/ad.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/views/card.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/views/comment.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/views/feed.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/views/item.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/definitions/views/statistic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/semantic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/theme.config.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/amazon/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/amazon/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/amazon/globals/site.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/assets/fonts/icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/assets/fonts/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/assets/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/assets/fonts/icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/collections/table.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/collections/table.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/elements/icon.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/elements/icon.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/elements/step.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/elements/step.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/globals/reset.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/globals/reset.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/modules/progress.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/modules/progress.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/views/card.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/basic/views/card.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/bookish/elements/header.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/bookish/elements/header.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/bootstrap3/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/bootstrap3/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/collections/form.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/collections/form.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/collections/menu.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/collections/menu.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/elements/header.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/elements/header.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/modules/accordion.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/modules/accordion.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/views/comment.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/chubby/views/comment.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/collections/table.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/collections/table.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/elements/header.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/elements/header.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/modules/progress.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/modules/progress.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/views/card.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/classic/views/card.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/colored/modules/checkbox.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/colored/modules/checkbox.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/brand-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/brand-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/brand-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/brand-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/brand-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/outline-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/outline-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/outline-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/outline-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/fonts/outline-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/assets/images/flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/breadcrumb.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/breadcrumb.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/form.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/form.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/grid.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/grid.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/menu.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/menu.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/message.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/message.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/table.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/collections/table.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/container.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/container.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/divider.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/divider.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/flag.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/flag.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/header.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/header.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/icon.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/icon.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/image.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/image.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/input.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/input.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/label.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/label.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/list.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/list.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/loader.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/loader.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/placeholder.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/placeholder.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/rail.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/rail.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/reveal.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/reveal.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/segment.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/segment.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/step.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/elements/step.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/globals/reset.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/globals/reset.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/globals/site.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/globals/site.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/accordion.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/accordion.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/chatroom.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/chatroom.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/checkbox.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/checkbox.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/dimmer.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/dimmer.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/dropdown.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/dropdown.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/embed.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/embed.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/modal.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/modal.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/nag.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/nag.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/popup.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/popup.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/progress.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/progress.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/rating.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/rating.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/search.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/search.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/shape.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/shape.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/sidebar.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/sidebar.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/sticky.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/sticky.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/tab.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/tab.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/transition.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/modules/transition.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/ad.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/ad.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/card.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/card.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/comment.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/comment.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/feed.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/feed.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/item.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/item.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/statistic.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/default/views/statistic.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/duo/elements/loader.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/duo/elements/loader.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/fixed-width/collections/grid.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/fixed-width/collections/grid.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/fixed-width/modules/modal.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/fixed-width/modules/modal.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/flat/collections/form.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/flat/collections/form.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/flat/globals/site.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/flat/globals/site.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/assets/fonts/octicons-local.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/assets/fonts/octicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/assets/fonts/octicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/assets/fonts/octicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/collections/breadcrumb.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/collections/form.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/collections/form.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/collections/grid.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/collections/menu.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/collections/menu.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/collections/message.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/collections/message.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/collections/table.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/header.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/icon.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/icon.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/image.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/input.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/input.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/label.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/label.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/segment.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/segment.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/step.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/elements/step.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/globals/site.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/modules/dropdown.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/modules/dropdown.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/github/modules/popup.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/gmail/collections/message.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/gmail/collections/message.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/instagram/views/card.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/instagram/views/card.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/assets/fonts/icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/assets/fonts/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/assets/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/assets/fonts/icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/assets/fonts/icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/collections/menu.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/collections/menu.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/elements/header.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/elements/header.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/elements/icon.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/elements/icon.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/globals/site.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/globals/site.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/modules/dropdown.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/modules/dropdown.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/modules/modal.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/material/modules/modal.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/pulsar/elements/loader.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/pulsar/elements/loader.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/raised/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/raised/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/resetcss/globals/reset.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/resetcss/globals/reset.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/round/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/round/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/rtl/globals/site.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/rtl/globals/site.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/striped/modules/progress.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/striped/modules/progress.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/timeline/views/feed.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/timeline/views/feed.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/twitter/elements/button.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/src/themes/twitter/elements/button.variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/admin/components/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/admin/components/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/admin/components/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/admin/distributions/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/admin/distributions/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/admin/distributions/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/admin/publish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/admin/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/admin/release.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/build/assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/build/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/build/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/check-install.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/clean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/collections/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/collections/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/collections/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/collections/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/collections/rtl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/github.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/oauth.example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/release.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/templates/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/templates/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/templates/component-package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/templates/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/templates/css-package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/templates/less-package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/admin/templates/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/docs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/npm/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/project/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/project/install.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/project/release.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/tasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/config/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/docs/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/docs/metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/docs/serve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/install.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/rtl/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/rtl/watch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/tasks/watch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/rating.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/shape.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/transition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/fixtures/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/helpers/jasmine-clog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/helpers/jasmine-jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/helpers/jasmine-sinon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/helpers/jquery-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/helpers/sinon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/meteor/assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/meteor/fonts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/accordion.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/checkbox.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/dropdown.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/modal.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/module.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/popup.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/search.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/shape.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/sidebar.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/tab.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/transition.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Semantic-UI-master/test/modules/video.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/forgot_pass.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forgot_pass.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/forgot_pass.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/forgot_pass.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/forgot_pass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/forgot_pass.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +722,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-308">
-                  <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+                <state relative-caret-position="175">
+                  <caret line="83" column="67" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -77,7 +781,7 @@
             <entry file="file://$PROJECT_DIR$/xacnhantaikhoan.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="249">
-                  <caret line="410" column="33" lean-forward="true" selection-start-line="410" selection-start-column="33" selection-end-line="410" selection-end-column="33" />
+                  <caret line="410" column="33" selection-start-line="410" selection-start-column="33" selection-end-line="410" selection-end-column="33" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -182,8 +886,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/forgot_pass.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+                <state relative-caret-position="654">
+                  <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -309,11 +1013,11 @@
         <option value="$PROJECT_DIR$/quenmatkhau.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/tracuuchiso.php" />
         <option value="$PROJECT_DIR$/tracuuchiso.html" />
         <option value="$PROJECT_DIR$/xacnhantaikhoan.php" />
         <option value="$PROJECT_DIR$/xacnhantaikhoan.html" />
+        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/scss/forgot_pass.scss" />
       </list>
     </option>
@@ -345,7 +1049,20 @@
             <path>
               <item name="html.evn" type="b2602c69:ProjectViewProjectNode" />
               <item name="html.evn" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html.evn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html.evn" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="Semantic-UI-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html.evn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html.evn" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="Semantic-UI-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html.evn" type="b2602c69:ProjectViewProjectNode" />
@@ -362,17 +1079,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs/flag" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/imgs/flag" />
       <recent name="$PROJECT_DIR$/imgs/icon_xacnhantaikhoan" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/imgs" />
-      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -435,7 +1152,7 @@
       <workItem from="1554358159848" duration="3440000" />
       <workItem from="1554365883966" duration="6787000" />
       <workItem from="1554804350912" duration="1743000" />
-      <workItem from="1555403071424" duration="400000" />
+      <workItem from="1555403071424" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="update phần tra cứu sugguest">
       <created>1554359767975</created>
@@ -497,7 +1214,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161292000" />
+    <option name="totallyTimeSpent" value="164317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
@@ -516,7 +1233,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3265306" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32561308" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1091,7 +1808,7 @@
     <entry file="file://$PROJECT_DIR$/xacnhantaikhoan.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
-          <caret line="410" column="33" lean-forward="true" selection-start-line="410" selection-start-column="33" selection-end-line="410" selection-end-column="33" />
+          <caret line="410" column="33" selection-start-line="410" selection-start-column="33" selection-end-line="410" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#div#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1109,15 +1826,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+        <state relative-caret-position="175">
+          <caret line="83" column="67" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/forgot_pass.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="654">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>

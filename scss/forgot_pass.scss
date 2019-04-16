@@ -36,3 +36,18 @@
     text-overflow: ellipsis;
   }
 }
+.ui{
+  &.dropdown{
+    &.active{
+      &.search{
+        input.search{
+          &:focus{
+            & + .text{
+              color: #ffffff !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
