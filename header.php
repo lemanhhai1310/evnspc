@@ -83,8 +83,10 @@
                             <i class="dropdown icon"></i>
                             <div class="default text uk-text-white">Select Country</div>
                             <div class="menu">
-                                <div style="white-space: nowrap" class="item" data-value="vn"><i class="vn flag"></i>Việt Nam</div>
-                                <div style="white-space: nowrap" class="item" data-value="england"><i class="england flag"></i>English</div>
+                                <div style="white-space: nowrap" class="item" data-value="vn"><img
+                                            src="imgs/flag/vietnam.svg" alt=""></div>
+                                <div style="white-space: nowrap" class="item" data-value="england"><img
+                                            src="imgs/flag/united-kingdom.svg" alt=""></div>
                             </div>
                         </div>
                         <script>
