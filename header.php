@@ -32,6 +32,9 @@
     <script src="assets/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script src="assets/Semantic-UI-master/dist/semantic.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <!--Charts JS-->
     <script src="js/chart.js"></script>
     <script src="js/chart-utils.js"></script>
