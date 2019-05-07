@@ -32,7 +32,7 @@
                                                 <input class="uk-input" type="text" placeholder="Mã khách hàng">
                                             </div>
                                         </div>
-                                        <button class="uk-button uk-button-primary btn-send-contact"><span uk-icon="search"></span> tìm kiếm thông tin</button>
+                                        <button class="uk-button uk-button-primary btn-send-contact uk-text-truncate"><span uk-icon="search"></span> tìm kiếm thông tin</button>
                                     </form>
                                 </div>
                             </div>
