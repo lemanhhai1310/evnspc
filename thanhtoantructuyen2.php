@@ -24,7 +24,7 @@
                         <div>
                             <div class="uk-margin-small"><a href="#">Nhập mã khách hàng sử dụng điện</a></div>
                             <div class="uk-margin-large-bottom" uk-grid>
-                                <div class="uk-width-2-3">
+                                <div class="uk-width-2-3@s">
                                     <form class="form_acc">
                                         <div class="uk-margin-small">
                                             <div class="uk-position-relative">
