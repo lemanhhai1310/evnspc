@@ -37,46 +37,48 @@
                                 </div>
                             </div>
                             <div class="uk-margin-small"><a href="#">Chọn các dịch vụ cần thanh toán</a></div>
-                            <table class="uk-table uk-table-divider table1_thanhtoan">
-                                <thead>
-                                <tr>
-                                    <th>Chọn</th>
-                                    <th>Mã Khách Hàng</th>
-                                    <th>Số Tiền</th>
-                                    <th>Số Tiền</th>
-                                    <th>Tổng Tiền</th>
-                                    <th>Loại Dịch Vụ</th>
-                                    <th>Thanh Toán</th>
-                                    <th>Chi Tiết</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>
-                                        <label><input class="uk-checkbox" type="checkbox"></label>
-                                    </td>
-                                    <td>(Mã Khách Hàng)</td>
-                                    <td>000.000.000</td>
-                                    <td>000.000</td>
-                                    <td>000.000.000</td>
-                                    <td>Loại Dịch Vụ</td>
-                                    <td>Thanh Toán</td>
-                                    <td><a href="#modal-center" uk-toggle><img src="imgs/thanhtoantructuyen/Vector.png" alt=""></a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <label><input class="uk-checkbox" type="checkbox"></label>
-                                    </td>
-                                    <td>(Mã Khách Hàng)</td>
-                                    <td>000.000.000</td>
-                                    <td>000.000</td>
-                                    <td>000.000.000</td>
-                                    <td>Loại Dịch Vụ</td>
-                                    <td>Thanh Toán</td>
-                                    <td><a href="#modal-center" uk-toggle><img src="imgs/thanhtoantructuyen/Vector.png" alt=""></a></td>
-                                </tr>
-                                </tbody>
-                            </table>
+                            <div class="uk-overflow-auto">
+                                <table class="uk-table uk-table-divider table1_thanhtoan">
+                                    <thead>
+                                    <tr>
+                                        <th>Chọn</th>
+                                        <th>Mã Khách Hàng</th>
+                                        <th>Số Tiền</th>
+                                        <th>Số Tiền</th>
+                                        <th>Tổng Tiền</th>
+                                        <th>Loại Dịch Vụ</th>
+                                        <th>Thanh Toán</th>
+                                        <th>Chi Tiết</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <label><input class="uk-checkbox" type="checkbox"></label>
+                                        </td>
+                                        <td>(Mã Khách Hàng)</td>
+                                        <td>000.000.000</td>
+                                        <td>000.000</td>
+                                        <td>000.000.000</td>
+                                        <td>Loại Dịch Vụ</td>
+                                        <td>Thanh Toán</td>
+                                        <td><a href="#modal-center" uk-toggle><img src="imgs/thanhtoantructuyen/Vector.png" alt=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label><input class="uk-checkbox" type="checkbox"></label>
+                                        </td>
+                                        <td>(Mã Khách Hàng)</td>
+                                        <td>000.000.000</td>
+                                        <td>000.000</td>
+                                        <td>000.000.000</td>
+                                        <td>Loại Dịch Vụ</td>
+                                        <td>Thanh Toán</td>
+                                        <td><a href="#modal-center" uk-toggle><img src="imgs/thanhtoantructuyen/Vector.png" alt=""></a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                             <div class="uk-width-1-1">
                                 <a href="#" class="uk-button uk-button-primary btn-send-contact">thanh toán</a>
                             </div>
