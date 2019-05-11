@@ -14,48 +14,39 @@
             <ul class="uk-slideshow-items">
                 <li>
                     <img src="imgs/slide_img1.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-position-center-right uk-position-small" uk-scrollspy="cls: uk-animation-fade; target: .box_banner > .title > *; delay: 500; repeat: true">
+                    <div class="uk-overlay uk-position-center-right uk-position-small" uk-scrollspy="cls: uk-animation-scale-down; target: .box_banner > .title > *; delay: 500; repeat: true">
                         <div class="box_banner">
                             <h1 class="title">
-                                <span>Đảm bảo</span>
-                                <br>
-                                <span>nguồn điện</span>
-                                <br>
-                                <span>cho tương lai</span>
-                                <br>
-                                <span>tươi sáng</span>
+                                <div><span>Đảm bảo</span></div>
+                                <div><span>nguồn điện</span></div>
+                                <div><span>cho tương lai</span></div>
+                                <div><span>tươi sáng</span></div>
                             </h1>
                         </div>
                     </div>
                 </li>
                 <li>
                     <img src="imgs/slide_img2.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-position-center-right uk-position-small" uk-scrollspy="cls: uk-animation-fade; target: .box_banner > .title > *; delay: 500; repeat: true">
+                    <div class="uk-overlay uk-position-center-right uk-position-small" uk-scrollspy="cls: uk-animation-scale-down; target: .box_banner > .title > *; delay: 500; repeat: true">
                         <div class="box_banner">
                             <h1 class="title">
-                                <span>Đảm bảo</span>
-                                <br>
-                                <span>nguồn điện</span>
-                                <br>
-                                <span>cho cuộc sống</span>
-                                <br>
-                                <span>an vui</span>
+                                <div><span>Đảm bảo</span></div>
+                                <div><span>nguồn điện</span></div>
+                                <div><span>cho cuộc sống</span></div>
+                                <div><span>an vui</span></div>
                             </h1>
                         </div>
                     </div>
                 </li>
                 <li>
                     <img src="imgs/slide_img3.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-position-center-left uk-position-small" uk-scrollspy="cls: uk-animation-fade; target: .box_banner > .title > *; delay: 500; repeat: true">
+                    <div class="uk-overlay uk-position-center-left uk-position-small" uk-scrollspy="cls: uk-animation-scale-down; target: .box_banner > .title > *; delay: 500; repeat: true">
                         <div class="box_banner">
                             <h1 class="title">
-                                <span>Đảm bảo</span>
-                                <br>
-                                <span>nguồn điện</span>
-                                <br>
-                                <span>cho an toàn</span>
-                                <br>
-                                <span>giao thông</span>
+                                <div><span>Đảm bảo</span></div>
+                                <div><span>nguồn điện</span></div>
+                                <div><span>cho an toàn</span></div>
+                                <div><span>giao thông</span></div>
                             </h1>
                         </div>
                     </div>
