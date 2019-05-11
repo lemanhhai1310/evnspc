@@ -14,7 +14,7 @@
             <ul class="uk-slideshow-items">
                 <li>
                     <img src="imgs/slide_img1.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-default uk-position-center-right uk-position-small">
+                    <div class="uk-overlay uk-position-center-right uk-position-small" uk-scrollspy="cls: uk-animation-fade; target: .box_banner > .title > *; delay: 500; repeat: true">
                         <div class="box_banner">
                             <h1 class="title">
                                 <span>Đảm bảo</span>
@@ -30,7 +30,7 @@
                 </li>
                 <li>
                     <img src="imgs/slide_img2.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-default uk-position-center-right uk-position-small">
+                    <div class="uk-overlay uk-position-center-right uk-position-small" uk-scrollspy="cls: uk-animation-fade; target: .box_banner > .title > *; delay: 500; repeat: true">
                         <div class="box_banner">
                             <h1 class="title">
                                 <span>Đảm bảo</span>
@@ -46,7 +46,7 @@
                 </li>
                 <li>
                     <img src="imgs/slide_img3.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-default uk-position-center-left uk-position-small">
+                    <div class="uk-overlay uk-position-center-left uk-position-small" uk-scrollspy="cls: uk-animation-fade; target: .box_banner > .title > *; delay: 500; repeat: true">
                         <div class="box_banner">
                             <h1 class="title">
                                 <span>Đảm bảo</span>
