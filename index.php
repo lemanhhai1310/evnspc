@@ -9,23 +9,65 @@
 </div>
 <div class="bg-white">
     <div class="uk-container">
-        <div class="uk-child-width-1-2@m uk-flex-middle" uk-grid>
-            <div>
-                <img src="imgs/banner1.png" alt="">
+        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push">
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="imgs/slide_img1.jpg" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-default uk-position-center-right uk-position-small">
+                        <div class="box_banner">
+                            <h1 class="title">
+                                <span>Đảm bảo</span>
+                                <br>
+                                <span>nguồn điện</span>
+                                <br>
+                                <span>cho tương lai</span>
+                                <br>
+                                <span>tươi sáng</span>
+                            </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="imgs/slide_img2.jpg" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-default uk-position-center-right uk-position-small">
+                        <div class="box_banner">
+                            <h1 class="title">
+                                <span>Đảm bảo</span>
+                                <br>
+                                <span>nguồn điện</span>
+                                <br>
+                                <span>cho cuộc sống</span>
+                                <br>
+                                <span>an vui</span>
+                            </h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="imgs/slide_img3.jpg" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-default uk-position-center-left uk-position-small">
+                        <div class="box_banner">
+                            <h1 class="title">
+                                <span>Đảm bảo</span>
+                                <br>
+                                <span>nguồn điện</span>
+                                <br>
+                                <span>cho an toàn</span>
+                                <br>
+                                <span>giao thông</span>
+                            </h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="uk-light">
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
             </div>
-            <div>
-                <div class="box_banner">
-                    <h1 class="title">
-                        <span>Đảm bảo</span>
-                        <br>
-                        <span>nguồn điện</span>
-                        <br>
-                        <span>cho tương lai</span>
-                        <br>
-                        <span>tươi sáng</span>
-                    </h1>
-                </div>
-            </div>
+            <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
         </div>
     </div>
 </div>

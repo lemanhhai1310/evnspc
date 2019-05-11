@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/uikit-3.0.3/css/uikit.min.css">
     <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.min.css">
     <link rel="stylesheet" href="assets/jquery-ui-1.12.1/jquery-ui.theme.min.css">
-    <link rel="stylesheet" href="assets/Semantic-UI-master/dist/semantic.min.css">
+<!--    <link rel="stylesheet" href="assets/Semantic-UI-master/dist/semantic.min.css">-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
@@ -30,7 +30,7 @@
     <script src="assets/uikit-3.0.3/js/uikit.min.js"></script>
     <script src="assets/uikit-3.0.3/js/uikit-icons.min.js"></script>
     <script src="assets/jquery-ui-1.12.1/jquery-ui.min.js"></script>
-    <script src="assets/Semantic-UI-master/dist/semantic.min.js"></script>
+<!--    <script src="assets/Semantic-UI-master/dist/semantic.min.js"></script>-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
@@ -80,7 +80,7 @@
                     <span>19001006 - 19009000</span>
                 </div>
                 <div>
-                    <div class="uk-inline uk-visible@m">
+                    <div class="uk-inline uk-hidden">
                         <div class="ui fluid search selection dropdown bg-transparent border-0 uk-text-white">
                             <input type="hidden" name="country">
                             <i class="dropdown icon"></i>
