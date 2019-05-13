@@ -9,7 +9,7 @@
 </div>
 <div class="bg-white">
     <div class="uk-container">
-        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push">
+        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push; autoplay: true;">
 
             <ul class="uk-slideshow-items">
                 <li>
