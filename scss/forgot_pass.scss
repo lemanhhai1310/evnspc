@@ -135,3 +135,69 @@
     font-family:'San Francisco Display Bold';
   }
 }
+.hai1{
+  border: 1px solid #E5E5E5;
+  .uk-card-header{
+    border-top: 3px solid #17479B;
+    border-bottom: 1px solid #E5E5E5;
+    h5{
+      font-family:'San Francisco Display Bold';
+      color: #17479B;
+      font-size: 16px;
+    }
+  }
+  .uk-card-body{
+
+  }
+}
+.list_hai1{
+  dt{
+    font-family:'San Francisco Display Medium';
+    color: #17479B;
+    text-transform: inherit;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  dd{
+
+  }
+}
+.hai2{
+  div{
+    color: #17479B;
+    font-size: 14px;
+    line-height: 150.5%;
+    font-family:'San Francisco Display Medium';
+  }
+}
+.desc_hai2{
+
+}
+.t1{
+  td{
+    background-color: #17479B;
+    color: #ffffff;
+    text-align: center;
+    &:nth-child(n+2){
+      border-left: 1px solid #ffffff;
+    }
+  }
+}
+.t2{
+  background: #F0F4FB;
+  td{
+    color: #17479B;
+    font-family:'San Francisco Display Medium';
+  }
+}
+.table3_hai{
+  font-size: 13px;
+  border: 1px solid #666666 !important;
+  tr{
+    &:not(.t1){
+      td{
+        border: 1px solid #666666;
+      }
+    }
+  }
+}
