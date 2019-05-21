@@ -201,3 +201,53 @@
     }
   }
 }
+.title_dvtc{
+  color: #17479B;
+  font-size: 14px;
+  border-bottom: 1px solid #E5E5E5;
+  span{
+    border-bottom: 1px solid #17479B;
+    display: inline-block;
+    color: #17479B !important;
+  }
+}
+.box11{
+  &.c1{
+    .uk-accordion-title{
+      &:before{
+        content: '';
+      }
+      .uk-icon{
+        top: 15px;
+        right: 15px;
+      }
+    }
+  }
+  li{
+    &:nth-child(n+2){
+      margin-top: 10px;
+    }
+    &.uk-open{
+      border: 1px solid #17479B;
+      .uk-accordion-title{
+        background: #17479B;
+        color: #ffffff;
+        &:before{
+          content: "\f106";
+        }
+      }
+    }
+    .uk-accordion-title{
+      background: #F6F6F6;
+      padding: 15px;
+      font-size: 14px;
+      font-family:'San Francisco Display Medium';
+      color: #17479B;
+      &:before{
+        background-image: none;
+        content: "\f107";
+        font-family: FontAwesome;
+      }
+    }
+  }
+}
